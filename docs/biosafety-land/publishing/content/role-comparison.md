@@ -89,6 +89,7 @@ This table shows what each role can do when adding, editing, deleting, cloning, 
 - Can only edit their own content
 - Can only delete their own content
 - Can only clone their own content
+- **Cannot publish content directly** — content is saved as draft for review
 - Limited to standard fields
 - Cannot change site structure
 - No impact analysis before deleting
