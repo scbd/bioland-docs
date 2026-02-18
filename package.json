@@ -1,0 +1,27 @@
+{
+  "name": "bioland-docs",
+  "version": "1.0.0",
+  "description": "Documentation for Bioland and Biosafety-Land projects",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs --open",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "capture:auth": "node scripts/capture/auth-setup.cjs",
+    "capture:test": "node scripts/capture/quick-test.cjs",
+    "capture:content": "node scripts/capture/content-capture.cjs",
+    "capture:media": "node scripts/capture/media-capture.cjs",
+    "capture:files": "node scripts/capture/files-capture.cjs",
+    "capture:menus": "node scripts/capture/menus-capture.cjs",
+    "capture:admin": "node scripts/capture/admin-capture.cjs",
+    "capture:all": "node scripts/capture/content-capture.cjs all all"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.57.0",
+    "@types/node": "25.0.8",
+    "dotenv": "17.2.3",
+    "ts-node": "10.9.2",
+    "typescript": "5.9.3",
+    "vitepress": "1.6.4"
+  }
+}

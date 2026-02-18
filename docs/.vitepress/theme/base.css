@@ -1,0 +1,28 @@
+/* Shared base styles for all pages */
+:root {
+  /* Default brand colors (can be overridden by specific themes) */
+  --vp-c-brand-1: #009b48;
+  --vp-c-brand-2: #008a40;
+  --vp-c-brand-3: #007838;
+}
+
+/* Indent first-level sidebar items under group headers */
+.VPSidebarItem.level-0 > .items {
+  padding-left: 16px;
+}
+
+/* Shared animation */
+@keyframes hero-drift {
+  0% {
+    transform: translate3d(-2%, -1%, 0) scale(1.03);
+  }
+  35% {
+    transform: translate3d(3%, 1%, 0) scale(1.06);
+  }
+  70% {
+    transform: translate3d(-1%, 2%, 0) scale(1.02);
+  }
+  100% {
+    transform: translate3d(2%, -1%, 0) scale(1.05);
+  }
+}
