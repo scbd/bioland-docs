@@ -68,27 +68,27 @@ Keep image file sizes under 500KB when possible. Crop screenshots to show only t
    - For contributing guide images: `docs/public/images/contrib/`
 3. Choose the subfolder that matches your content section
 
-![Image Folder Structure](/images/contrib/contrib-upload-05-image-folder.png)
+![Image Folder Structure](/docs/public/images/contrib/contrib-upload-05-image-folder.png)
 
 ### Step 3: Upload Your Image
 
 1. Click the **Add file** dropdown button near the top of the page
 2. Select **Upload files**
 
-![Add File Dropdown](/images/contrib/contrib-upload-01-add-file-dropdown.png)
+![Add File Dropdown](/docs/public/images/contrib/contrib-upload-01-add-file-dropdown.png)
 
-![Upload Files Option](/images/contrib/contrib-upload-02-upload-option.png)
+![Upload Files Option](/docs/public/images/contrib/contrib-upload-02-upload-option.png)
 
 3. You will see a drag-and-drop upload area
 4. Either:
    - **Drag and drop** your image file onto the upload area, or
    - Click **choose your files** to browse and select the image
 
-![Upload Page](/images/contrib/contrib-upload-03-upload-page.png)
+![Upload Page](/docs/public/images/contrib/contrib-upload-03-upload-page.png)
 
 5. Your file will appear in the staging area below
 
-![Files Staged for Upload](/images/contrib/contrib-upload-04-files-staged.png)
+![Files Staged for Upload](/docs/public/images/contrib/contrib-upload-04-files-staged.png)
 
 6. Write a commit message describing the image (e.g., "Add screenshot for login step 3")
 7. Select **Create a new branch** and click **Commit changes**
@@ -148,3 +148,7 @@ Alt text describes the image for accessibility. It should:
 ```markdown
 ![Screenshot](/images/biosafety-land/content/content-add-contributor-04-add-button.png)
 ```
+
+### Next Steps
+
+Now that you know how to work with images, proceed to [Creating a Pull Request](./07-pull-requests.md) to submit your changes for review.

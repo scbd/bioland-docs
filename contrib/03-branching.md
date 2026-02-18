@@ -22,11 +22,11 @@ You don't need to create branches or forks manually. When you click the edit but
 2. GitHub creates a new branch in your fork for your changes
 3. A dialog may appear showing you this process
 
-![Fork and Branch Dialog](/images/contrib/contrib-branch-01-fork-dialog.png)
+![Fork and Branch Dialog](/docs/public/images/contrib/contrib-branch-01-fork-dialog.png)
 
 4. Simply accept the defaults — GitHub chooses a sensible branch name for you
 
-![Branch Name Field](/images/contrib/contrib-branch-02-branch-name.png)
+![Branch Name Field](/docs/public/images/contrib/contrib-branch-02-branch-name.png)
 
 ::: info
 Your changes are completely safe. They will not affect the live documentation until a reviewer approves and merges them.
@@ -42,3 +42,7 @@ Your changes are completely safe. They will not affect the live documentation un
 ::: tip
 You don't need to understand Git to contribute. GitHub handles the technical details behind the scenes.
 :::
+
+### Next Steps
+
+Now that you understand how branches work, proceed to [Editing Documentation Pages](./04-editing-pages.md) to start making changes.

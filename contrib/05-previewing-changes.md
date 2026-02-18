@@ -8,7 +8,7 @@ Before saving your edits, you can preview how the formatted text will look. GitH
 2. You will see two tabs: **Edit** and **Preview**
 3. Click the **Preview** tab
 
-![Edit and Preview Tabs](/images/contrib/contrib-preview-01-tabs.png)
+![Edit and Preview Tabs](/docs/public/images/contrib/contrib-preview-01-tabs.png)
 
 ### Step 2: Check Your Formatting
 
@@ -20,7 +20,7 @@ Before saving your edits, you can preview how the formatted text will look. GitH
    - Images show correctly
    - Lists and tables are formatted properly
 
-![Preview Rendered View](/images/contrib/contrib-preview-02-preview-rendered.png)
+![Preview Rendered View](/docs/public/images/contrib/contrib-preview-02-preview-rendered.png)
 
 3. To continue editing, click the **Edit** tab to switch back
 
@@ -68,7 +68,7 @@ If you want to see exactly what changed compared to the original file:
 3. Lines you added appear highlighted in **green**
 4. Lines you removed appear highlighted in **red**
 
-![Diff View](/images/contrib/contrib-preview-03-diff-view.png)
+![Diff View](/docs/public/images/contrib/contrib-preview-03-diff-view.png)
 
 ### Tips for Verifying Changes
 
@@ -76,3 +76,7 @@ If you want to see exactly what changed compared to the original file:
 - Verify that image paths start with `/images/` (not `docs/public/images/`)
 - Make sure links point to the correct pages
 - Confirm that numbered lists are in the right order
+
+### Next Steps
+
+Once you've previewed and verified your changes, learn about [Working with Images](./06-images.md) if your edits include screenshots or diagrams.

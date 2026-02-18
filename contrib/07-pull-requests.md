@@ -13,7 +13,7 @@ After committing changes to a new branch, GitHub displays a yellow banner at the
 1. Look for the **Compare & pull request** button in the yellow banner
 2. Click it to start creating your pull request
 
-![Compare and Pull Request Banner](/images/contrib/contrib-pr-01-compare-banner.png)
+![Compare and Pull Request Banner](/docs/public/images/contrib/contrib-pr-01-compare-banner.png)
 
 ::: tip
 If you don't see the yellow banner, you can create a pull request manually:
@@ -27,7 +27,7 @@ If you don't see the yellow banner, you can create a pull request manually:
 
 The pull request form has two main fields:
 
-![Pull Request Form](/images/contrib/contrib-pr-02-pr-form.png)
+![Pull Request Form](/docs/public/images/contrib/contrib-pr-02-pr-form.png)
 
 1. **Title** — A short summary of what you changed
    - Good examples:
@@ -39,7 +39,7 @@ The pull request form has two main fields:
    - List the specific pages or sections you edited
    - Mention anything reviewers should pay attention to
 
-![Pull Request Form Filled In](/images/contrib/contrib-pr-03-pr-form-filled.png)
+![Pull Request Form Filled In](/docs/public/images/contrib/contrib-pr-03-pr-form-filled.png)
 
 ::: tip
 Write a clear, descriptive title. Reviewers see this first and it helps them understand your contribution at a glance.
@@ -51,7 +51,7 @@ Write a clear, descriptive title. Reviewers see this first and it helps them und
 2. Scroll down to see the **Files changed** section — this shows your exact edits
 3. Click the green **Create pull request** button
 
-![Created Pull Request Page](/images/contrib/contrib-pr-04-created-pr.png)
+![Created Pull Request Page](/docs/public/images/contrib/contrib-pr-04-created-pr.png)
 
 ### What Happens After You Submit
 
@@ -63,7 +63,7 @@ Write a clear, descriptive title. Reviewers see this first and it helps them und
 3. **Merge** — Once approved, a maintainer merges your changes into the main branch
 4. **Live site update** — Your changes will appear on the live documentation site after the next deployment
 
-![Review Comments on Pull Request](/images/contrib/contrib-pr-05-review-comments.png)
+![Review Comments on Pull Request](/docs/public/images/contrib/contrib-pr-05-review-comments.png)
 
 ::: info
 Reviews usually happen within a few business days. You will receive an email notification when there is activity on your pull request.
@@ -90,6 +90,6 @@ Once your pull request is merged:
 - Your pull request will be marked as **Merged** with a purple badge
 - You can delete your branch (GitHub may offer this option automatically)
 
-![Merge Area](/images/contrib/contrib-pr-06-merge-area.png)
+![Merge Area](/docs/public/images/contrib/contrib-pr-06-merge-area.png)
 
 Congratulations — you've successfully contributed to the documentation! 🎉

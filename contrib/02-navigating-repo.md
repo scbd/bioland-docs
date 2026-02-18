@@ -7,7 +7,7 @@ All Bioland documentation lives in a single GitHub repository. This section show
 1. Go to [https://github.com/scbd/bioland-docs](https://github.com/scbd/bioland-docs)
 2. You will see the repository home page with a list of files and folders
 
-![Repository Home Page](/images/contrib/contrib-nav-01-repo-home.png)
+![Repository Home Page](/docs/public/images/contrib/contrib-nav-01-repo-home.png)
 
 ::: tip
 Bookmark this page for quick access: [https://github.com/scbd/bioland-docs](https://github.com/scbd/bioland-docs)
@@ -27,7 +27,7 @@ The repository is organized into folders. Here are the most important ones:
 1. Click the **docs** folder to open it
 2. You will see the subfolders for each platform
 
-![Docs Folder Contents](/images/contrib/contrib-nav-02-docs-folder.png)
+![Docs Folder Contents](/docs/public/images/contrib/contrib-nav-02-docs-folder.png)
 
 ### Step 3: Navigate to a Page
 
@@ -38,11 +38,11 @@ The repository is organized into folders. Here are the most important ones:
    - Click **getting-started.md**
 3. GitHub will display the file contents
 
-![File View on GitHub](/images/contrib/contrib-nav-03-file-view.png)
+![File View on GitHub](/docs/public/images/contrib/contrib-nav-03-file-view.png)
 
 The **breadcrumb navigation** at the top of the page shows your current location in the folder hierarchy. You can click any part of the breadcrumb to go back to a parent folder.
 
-![Breadcrumb Navigation](/images/contrib/contrib-nav-04-breadcrumbs.png)
+![Breadcrumb Navigation](/docs/public/images/contrib/contrib-nav-04-breadcrumbs.png)
 
 ### Step 4: Find a Specific File
 
@@ -53,7 +53,7 @@ If you know the name of the file you want to edit, you can search for it:
 3. GitHub will filter the list of files as you type
 4. Click the file you want to open
 
-![Go to File Search](/images/contrib/contrib-nav-05-go-to-file.png)
+![Go to File Search](/docs/public/images/contrib/contrib-nav-05-go-to-file.png)
 
 ::: tip
 Press the **T** key on your keyboard from any page in the repository to quickly open the file search.
@@ -73,3 +73,7 @@ The rules are:
 - Remove `docs/` from the beginning of the path
 - Remove `.md` from the end of the filename
 - The rest of the path becomes the URL
+
+### Next Steps
+
+Now that you know how to navigate the repository, proceed to [Understanding Branches](./03-branching.md) to learn how changes are organized before editing.

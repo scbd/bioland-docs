@@ -16,13 +16,13 @@ Make sure you are editing the correct file. Use the breadcrumbs at the top of th
 1. On the file view page, look for the **pencil icon** (✏️) in the top-right area of the file content
 2. Click the pencil icon or the small dropdown arrow next to it
 
-![Pencil Edit Icon](/images/contrib/contrib-edit-01-pencil-icon.png)
+![Pencil Edit Icon](/docs/public/images/contrib/contrib-edit-01-pencil-icon.png)
 
 3. A dropdown may appear with options:
    - **Edit this file** — opens the web editor (choose this one)
    - **Open with github.dev** — opens a more advanced editor
 
-![Edit Dropdown Menu](/images/contrib/contrib-edit-02-edit-dropdown.png)
+![Edit Dropdown Menu](/docs/public/images/contrib/contrib-edit-02-edit-dropdown.png)
 
 4. Click **Edit this file**
 
@@ -39,9 +39,9 @@ If this is your first time editing this repository, GitHub will create a fork au
    - Add new paragraphs or sections
    - Add links, images, or formatting (see [Markdown Quick Reference](./08-markdown-reference.md))
 
-![GitHub Web Editor](/images/contrib/contrib-edit-03-web-editor.png)
+![GitHub Web Editor](/docs/public/images/contrib/contrib-edit-03-web-editor.png)
 
-![Making Changes in the Editor](/images/contrib/contrib-edit-04-making-changes.png)
+![Making Changes in the Editor](/docs/public/images/contrib/contrib-edit-04-making-changes.png)
 
 ::: tip
 Use the **Preview** tab to check how your changes will look before saving. See [Previewing Your Changes](./05-previewing-changes.md) for details.
@@ -54,7 +54,7 @@ When you're ready to save your changes:
 1. Click the green **Commit changes...** button in the top-right corner
 2. A dialog will appear asking for a **commit message**
 
-![Commit Changes Dialog](/images/contrib/contrib-edit-05-commit-dialog.png)
+![Commit Changes Dialog](/docs/public/images/contrib/contrib-edit-05-commit-dialog.png)
 
 3. In the **Commit message** field, write a brief description of what you changed
    - Good examples: "Fix typo in getting started page", "Add screenshot for login step 3", "Update contact information"
@@ -62,7 +62,7 @@ When you're ready to save your changes:
 
 4. Optionally, add more detail in the **Extended description** field
 
-![Commit Form with Message](/images/contrib/contrib-edit-06-commit-form.png)
+![Commit Form with Message](/docs/public/images/contrib/contrib-edit-06-commit-form.png)
 
 ::: tip
 Write clear commit messages that describe what you changed and why. This helps reviewers understand your contribution.

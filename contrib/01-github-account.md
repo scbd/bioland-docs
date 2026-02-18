@@ -11,7 +11,7 @@ You only need to create a GitHub account once. If you already have one, skip to 
 1. Open your web browser
 2. Navigate to [https://github.com/signup](https://github.com/signup)
 
-![GitHub Signup Page](/images/contrib/contrib-account-01-signup-page.png)
+![GitHub Signup Page](/docs/public/images/contrib/contrib-account-01-signup-page.png)
 
 ### Step 2: Create Your Account
 
@@ -21,7 +21,7 @@ You only need to create a GitHub account once. If you already have one, skip to 
 4. Complete the verification puzzle
 5. Click **Create account**
 
-![GitHub Signup Form](/images/contrib/contrib-account-02-signup-form.png)
+![GitHub Signup Form](/docs/public/images/contrib/contrib-account-02-signup-form.png)
 
 ::: tip
 Choose a recognizable username such as `firstname-lastname` or `firstname-organization`. This helps reviewers identify who submitted changes.
