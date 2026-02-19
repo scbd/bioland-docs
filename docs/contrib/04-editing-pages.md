@@ -11,7 +11,7 @@ next:
 
 This section walks you through editing an existing documentation page using the GitHub web editor. No software installation is needed — everything happens in your browser.
 
-### Step 1: Find the Page to Edit
+## Step 1: Find the Page to Edit
 
 1. Navigate to the file you want to edit (see [Finding and Navigating the Documentation](./02-navigating-repo.md))
 2. Confirm you have the correct file by checking the breadcrumb navigation at the top
@@ -20,7 +20,7 @@ This section walks you through editing an existing documentation page using the 
 Make sure you are editing the correct file. Use the breadcrumbs at the top of the page to confirm the file path.
 :::
 
-### Step 2: Click the Edit Button
+## Step 2: Click the Edit Button
 
 1. On the file view page, look for the **pencil icon** (✏️) in the top-right area of the file content
 2. Click the pencil icon or the small dropdown arrow next to it
@@ -39,7 +39,7 @@ Make sure you are editing the correct file. Use the breadcrumbs at the top of th
 If this is your first time editing this repository, GitHub will create a fork automatically. See [Understanding Branches](./03-branching.md) for details.
 :::
 
-### Step 3: Make Your Changes
+## Step 3: Make Your Changes
 
 1. The web editor opens, showing the file contents as plain text (markdown)
 2. Click anywhere in the text to position your cursor
@@ -56,7 +56,7 @@ If this is your first time editing this repository, GitHub will create a fork au
 Use the **Preview** tab to check how your changes will look before saving. See [Previewing Your Changes](./05-previewing-changes.md) for details.
 :::
 
-### Step 4: Write a Commit Message
+## Step 4: Write a Commit Message
 
 When you're ready to save your changes:
 
@@ -77,13 +77,13 @@ When you're ready to save your changes:
 Write clear commit messages that describe what you changed and why. This helps reviewers understand your contribution.
 :::
 
-### Step 5: Save Your Changes
+## Step 5: Save Your Changes
 
 1. Make sure **Create a new branch for this commit and start a pull request** is selected
 2. You can keep the suggested branch name or change it
 3. Click **Propose changes**
 
-### What Happens Next
+## What Happens Next
 
 After saving your changes:
 - GitHub will show you a page to create a **pull request**

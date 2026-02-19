@@ -8,7 +8,7 @@ prev:
 
 The documentation is written in **Markdown**, a simple formatting language. This reference covers everything you need to write and edit documentation pages.
 
-### Basic Formatting
+## Basic Formatting
 
 | What You Want | What You Type | Result |
 |---------------|---------------|--------|
@@ -18,22 +18,22 @@ The documentation is written in **Markdown**, a simple formatting language. This
 | Strikethrough | `~~crossed out~~` | ~~crossed out~~ |
 | Inline code | `` `code` `` | `code` |
 
-### Headings
+## Headings
 
 Use `#` symbols to create headings. More `#` symbols means a smaller heading.
 
 ```markdown
 # Page Title (H1) — used only once per page
 ## Main Section (H2)
-### Sub-Section (H3)
-#### Step Heading (H4)
+## Sub-Section (H3)
+### Step Heading (H4)
 ```
 
 ::: warning
 Only use one `#` (H1) heading per page. Start your sections with `##` (H2) headings.
 :::
 
-### Links
+## Links
 
 ```markdown
 <!-- Link to an external website -->
@@ -46,7 +46,7 @@ Only use one `#` (H1) heading per page. Start your sections with `##` (H2) headi
 [See the next section](#section-heading)
 ```
 
-### Images
+## Images
 
 ```markdown
 ![Description of the image](/images/platform/section/filename.png)
@@ -61,7 +61,7 @@ Only use one `#` (H1) heading per page. Start your sections with `##` (H2) headi
 Image paths must start with `/images/`, not `docs/public/images/`. See [Working with Images](./06-images.md) for details.
 :::
 
-### Lists
+## Lists
 
 **Unordered list (bullet points):**
 ```markdown
@@ -85,7 +85,7 @@ Image paths must start with `/images/`, not `docs/public/images/`. See [Working 
 2. Second step
 ```
 
-### Tables
+## Tables
 
 ```markdown
 | Column 1 | Column 2 | Column 3 |
@@ -96,7 +96,7 @@ Image paths must start with `/images/`, not `docs/public/images/`. See [Working 
 
 The line with `|----------|` separates the header from the body. It must be included.
 
-### Code Blocks
+## Code Blocks
 
 For multi-line code or file examples, use triple backticks:
 
@@ -115,14 +115,14 @@ You can specify a language for syntax highlighting:
 ```
 ````
 
-### Blockquotes
+## Blockquotes
 
 ```markdown
 > This is a blockquote.
 > It can span multiple lines.
 ```
 
-### Horizontal Rule
+## Horizontal Rule
 
 ```markdown
 ---
@@ -130,7 +130,7 @@ You can specify a language for syntax highlighting:
 
 Creates a horizontal line to separate content sections.
 
-### VitePress-Specific Features
+## VitePress-Specific Features
 
 These features are specific to the Bioland documentation site. They will **not** render in GitHub's preview but will display correctly on the live site.
 
@@ -186,7 +186,7 @@ Do not modify frontmatter unless you know what the setting does. If in doubt, le
 You can always use the **Preview** tab in the GitHub editor to check how your markdown will look. Remember that VitePress-specific features like tip boxes will not appear in the preview but will work on the live site.
 :::
 
-### Further Reading
+## Further Reading
 
 - [GitHub Markdown Guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) — Official GitHub markdown reference
 - [VitePress Markdown Extensions](https://vitepress.dev/guide/markdown) — VitePress-specific markdown features

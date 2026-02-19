@@ -11,7 +11,7 @@ next:
 
 Documentation often includes screenshots and diagrams. This section explains where images are stored, how to name them, and how to upload and reference them in your documentation.
 
-### Where Images Are Stored
+## Where Images Are Stored
 
 All images are stored in the `docs/public/images/` folder, organized by platform and topic:
 
@@ -29,7 +29,7 @@ docs/public/images/
 └── contrib/              → /images/contrib/
 ```
 
-### Image Naming Convention
+## Image Naming Convention
 
 All image files must follow these naming rules:
 
@@ -61,14 +61,14 @@ media-add-site-manager-03-add-media.png
 Keep image file sizes under 500KB when possible. Crop screenshots to show only the relevant part of the screen.
 :::
 
-### Step 1: Prepare Your Image
+## Step 1: Prepare Your Image
 
 1. Take a screenshot of the relevant part of the screen
 2. Crop the image to show only what is needed
 3. Save it as a `.png` file
 4. Name the file following the naming convention above
 
-### Step 2: Navigate to the Image Folder
+## Step 2: Navigate to the Image Folder
 
 1. Go to the repository: [https://github.com/scbd/bioland-docs](https://github.com/scbd/bioland-docs)
 2. Navigate to the correct image folder:
@@ -79,7 +79,7 @@ Keep image file sizes under 500KB when possible. Crop screenshots to show only t
 
 ![Image Folder Structure](/images/contrib/contrib-upload-05-image-folder.png)
 
-### Step 3: Upload Your Image
+## Step 3: Upload Your Image
 
 1. Click the **Add file** dropdown button near the top of the page
 2. Select **Upload files**
@@ -102,7 +102,7 @@ Keep image file sizes under 500KB when possible. Crop screenshots to show only t
 6. Write a commit message describing the image (e.g., "Add screenshot for login step 3")
 7. Select **Create a new branch** and click **Commit changes**
 
-### Step 4: Reference the Image in Markdown
+## Step 4: Reference the Image in Markdown
 
 After uploading, reference the image in your documentation file using this syntax:
 
@@ -121,7 +121,7 @@ After uploading, reference the image in your documentation file using this synta
 The image path in your markdown must start with `/images/`, **not** `docs/public/images/`. GitHub shows the full file path, but the documentation site uses the shorter path.
 :::
 
-### Image Path Mapping
+## Image Path Mapping
 
 When you see a file at this GitHub path:
 ```
@@ -141,7 +141,7 @@ Reference it in markdown as:
 | `docs/public/images/biosafety-land/content/my-image.png` | `/images/biosafety-land/content/my-image.png` |
 | `docs/public/images/contrib/my-screenshot.png` | `/images/contrib/my-screenshot.png` |
 
-### Writing Good Alt Text
+## Writing Good Alt Text
 
 Alt text describes the image for accessibility. It should:
 - Describe what the image shows
@@ -158,6 +158,6 @@ Alt text describes the image for accessibility. It should:
 ![Screenshot](/images/biosafety-land/content/content-add-contributor-04-add-button.png)
 ```
 
-### Next Steps
+## Next Steps
 
 Now that you know how to work with images, proceed to [Creating a Pull Request](./07-pull-requests.md) to submit your changes for review.

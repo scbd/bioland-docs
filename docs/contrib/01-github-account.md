@@ -15,14 +15,14 @@ GitHub is a free online platform used for collaborative document editing. All of
 You only need to create a GitHub account once. If you already have one, skip to [Finding and Navigating the Documentation](./02-navigating-repo.md).
 :::
 
-### Step 1: Go to GitHub
+## Step 1: Go to GitHub
 
 1. Open your web browser
 2. Navigate to [https://github.com/signup](https://github.com/signup)
 
 ![GitHub Signup Page](/images/contrib/contrib-account-01-signup-page.png)
 
-### Step 2: Create Your Account
+## Step 2: Create Your Account
 
 1. Enter your **email address** (use your work or organization email)
 2. Create a **password**
@@ -36,7 +36,7 @@ You only need to create a GitHub account once. If you already have one, skip to 
 Choose a recognizable username such as `firstname-lastname` or `firstname-organization`. This helps reviewers identify who submitted changes.
 :::
 
-### Step 3: Verify Your Email
+## Step 3: Verify Your Email
 
 1. Check your email inbox for a message from GitHub
 2. Open the email and click the **verification link**
@@ -46,7 +46,7 @@ Choose a recognizable username such as `firstname-lastname` or `firstname-organi
 If you do not see the verification email, check your spam or junk folder. You must verify your email before you can contribute.
 :::
 
-### Step 4: Set Up Your Profile (Optional)
+## Step 4: Set Up Your Profile (Optional)
 
 1. Click your profile icon in the top-right corner of GitHub
 2. Click **Settings**
@@ -55,6 +55,6 @@ If you do not see the verification email, check your spam or junk folder. You mu
 
 This is optional, but it helps the documentation team know who is contributing.
 
-### Next Steps
+## Next Steps
 
 Now that you have a GitHub account, proceed to [Finding and Navigating the Documentation](./02-navigating-repo.md) to find the documentation files you want to edit.

@@ -11,7 +11,7 @@ next:
 
 When you edit a file on GitHub, your changes are kept separate from the main documentation until they are reviewed and approved. This is done using **branches** and **forks**.
 
-### What is a Branch?
+## What is a Branch?
 
 Think of a branch as making a photocopy of a document. You write your edits on the copy, while the original stays safe and unchanged. Once someone reviews your edits and approves them, the changes are copied back to the original.
 
@@ -19,11 +19,11 @@ In GitHub terms:
 - The **main branch** (`master`) is the original document — it powers the live website
 - **Your branch** is your personal copy where you make changes
 
-### What is a Fork?
+## What is a Fork?
 
 If you don't have direct write access to the repository (which is normal for most contributors), GitHub creates a **fork** — your own complete copy of the entire project. Your edits happen in your fork, on a new branch.
 
-### How GitHub Handles This For You
+## How GitHub Handles This For You
 
 You don't need to create branches or forks manually. When you click the edit button on a file:
 
@@ -41,7 +41,7 @@ You don't need to create branches or forks manually. When you click the edit but
 Your changes are completely safe. They will not affect the live documentation until a reviewer approves and merges them.
 :::
 
-### What to Expect
+## What to Expect
 
 - You can make multiple edits on the same branch
 - Each branch represents one set of related changes
@@ -52,6 +52,6 @@ Your changes are completely safe. They will not affect the live documentation un
 You don't need to understand Git to contribute. GitHub handles the technical details behind the scenes.
 :::
 
-### Next Steps
+## Next Steps
 
 Now that you understand how branches work, proceed to [Editing Documentation Pages](./04-editing-pages.md) to start making changes.

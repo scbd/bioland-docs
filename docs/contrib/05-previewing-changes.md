@@ -11,7 +11,7 @@ next:
 
 Before saving your edits, you can preview how the formatted text will look. GitHub's editor has a **Preview** tab that renders your markdown so you can check your work.
 
-### Step 1: Switch to Preview Tab
+## Step 1: Switch to Preview Tab
 
 1. While in the editor, look at the top of the editing area
 2. You will see two tabs: **Edit** and **Preview**
@@ -19,7 +19,7 @@ Before saving your edits, you can preview how the formatted text will look. GitH
 
 ![Edit and Preview Tabs](/images/contrib/contrib-preview-01-tabs.png)
 
-### Step 2: Check Your Formatting
+## Step 2: Check Your Formatting
 
 1. The preview will show your markdown rendered as formatted text
 2. Verify that:
@@ -37,7 +37,7 @@ Before saving your edits, you can preview how the formatted text will look. GitH
 Switch back and forth between **Edit** and **Preview** as you work to catch formatting issues early.
 :::
 
-### What Renders in Preview
+## What Renders in Preview
 
 GitHub's preview correctly displays most standard markdown:
 
@@ -52,7 +52,7 @@ GitHub's preview correctly displays most standard markdown:
 | Tables | Pipe syntax | ✅ Renders correctly |
 | Code | `` `code` `` | ✅ Renders correctly |
 
-### What Does NOT Render in Preview
+## What Does NOT Render in Preview
 
 Some features specific to our documentation site (VitePress) will not display correctly in GitHub's preview. **This is normal** — they will work properly on the live site after your changes are merged.
 
@@ -68,7 +68,7 @@ Some features specific to our documentation site (VitePress) will not display co
 Don't worry if tip boxes and warning boxes appear as plain text in the preview. They will display correctly as colored callout boxes on the actual documentation site.
 :::
 
-### Viewing a Visual Diff
+## Viewing a Visual Diff
 
 If you want to see exactly what changed compared to the original file:
 
@@ -79,13 +79,13 @@ If you want to see exactly what changed compared to the original file:
 
 ![Diff View](/images/contrib/contrib-preview-03-diff-view.png)
 
-### Tips for Verifying Changes
+## Tips for Verifying Changes
 
 - Check that all headings use the correct level (`##`, `###`, `####`)
 - Verify that image paths start with `/images/` (not `docs/public/images/`)
 - Make sure links point to the correct pages
 - Confirm that numbered lists are in the right order
 
-### Next Steps
+## Next Steps
 
 Once you've previewed and verified your changes, learn about [Working with Images](./06-images.md) if your edits include screenshots or diagrams.

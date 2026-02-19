@@ -11,11 +11,11 @@ next:
 
 After you commit your changes, you need to create a **pull request** (PR) to ask the documentation team to review and include your edits in the live site.
 
-### What is a Pull Request?
+## What is a Pull Request?
 
 A pull request is a way of saying: "I've made some changes — please review them and add them to the documentation." It lets reviewers see exactly what you changed, leave comments, and approve your work before it goes live.
 
-### Step 1: Start the Pull Request
+## Step 1: Start the Pull Request
 
 After committing changes to a new branch, GitHub displays a yellow banner at the top of the page:
 
@@ -32,7 +32,7 @@ If you don't see the yellow banner, you can create a pull request manually:
 4. Select your branch from the dropdown
 :::
 
-### Step 2: Fill in the Details
+## Step 2: Fill in the Details
 
 The pull request form has two main fields:
 
@@ -54,7 +54,7 @@ The pull request form has two main fields:
 Write a clear, descriptive title. Reviewers see this first and it helps them understand your contribution at a glance.
 :::
 
-### Step 3: Submit the Pull Request
+## Step 3: Submit the Pull Request
 
 1. Review the information you've entered
 2. Scroll down to see the **Files changed** section — this shows your exact edits
@@ -62,7 +62,7 @@ Write a clear, descriptive title. Reviewers see this first and it helps them und
 
 ![Created Pull Request Page](/images/contrib/contrib-pr-04-created-pr.png)
 
-### What Happens After You Submit
+## What Happens After You Submit
 
 1. **Reviewers are notified** — The documentation team receives a notification about your pull request
 2. **Review process** — A reviewer will look at your changes. They may:
@@ -78,7 +78,7 @@ Write a clear, descriptive title. Reviewers see this first and it helps them und
 Reviews usually happen within a few business days. You will receive an email notification when there is activity on your pull request.
 :::
 
-### Responding to Review Comments
+## Responding to Review Comments
 
 If a reviewer requests changes:
 
@@ -90,7 +90,7 @@ If a reviewer requests changes:
 6. Commit the changes — they will automatically be added to your existing pull request
 7. Reply to the reviewer's comment to let them know you've addressed their feedback
 
-### After Your PR is Merged
+## After Your PR is Merged
 
 Once your pull request is merged:
 

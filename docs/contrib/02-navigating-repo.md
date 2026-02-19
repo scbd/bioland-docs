@@ -11,19 +11,19 @@ next:
 
 Every page on the documentation site includes built-in links that take you directly to the correct file on GitHub for editing. This is the fastest way to start editing — no need to navigate the repository manually.
 
-### "Edit this page on GitHub"
+## "Edit this page on GitHub"
 
 At the **bottom of every page** on the documentation site, you will find an **Edit this page on GitHub** link. Clicking it opens the exact file in the GitHub editor, ready for you to make changes.
 
 ![Edit this page on GitHub link at the bottom of a page](/images/contrib/contrib-nav-00-edit-page-link.png)
 
-### "Edit this included page on GitHub"
+## "Edit this included page on GitHub"
 
 Some pages — such as the Publishing guides — combine content from multiple files into a single long page. On these pages you will see **Edit this included page on GitHub** links between each section. These link to the specific sub-file that contains that section, so your edits target the right place.
 
 ![Edit this included page on GitHub link between sections](/images/contrib/contrib-nav-00-edit-included-link.png)
 
-### What Happens When You Click
+## What Happens When You Click
 
 Both links open the **GitHub web editor** for the corresponding file. You will see the Markdown source code and can make your changes directly in the browser:
 
@@ -37,7 +37,7 @@ If you already see the page you want to edit on the live documentation site, use
 
 ---
 
-::: info Ready to start editing?
+::: warning Ready to start editing?
 You now know the fastest way to find and edit any page. You can **proceed to the next step** to learn how branches work, or continue reading below for an in-depth look at the repository's file structure.
 
 <a href="./03-branching" class="vp-link" style="display:inline-flex;align-items:center;gap:6px;margin-top:8px;font-weight:600;color:var(--vp-c-brand-1);">Next: Understanding Branches →</a>
@@ -47,7 +47,7 @@ You now know the fastest way to find and edit any page. You can **proceed to the
 
 If you need to browse the repository directly — for example, to find a file you haven't visited on the site, or to work with images — you can navigate the GitHub repository manually.
 
-### Step 1: Open the Repository
+## Step 1: Open the Repository
 
 1. Go to [https://github.com/scbd/bioland-docs](https://github.com/scbd/bioland-docs)
 2. You will see the repository home page with a list of files and folders
@@ -58,7 +58,7 @@ If you need to browse the repository directly — for example, to find a file yo
 Bookmark this page for quick access: [https://github.com/scbd/bioland-docs](https://github.com/scbd/bioland-docs)
 :::
 
-### Step 2: Understand the Folder Structure
+## Step 2: Understand the Folder Structure
 
 The repository is organized into folders. Here are the most important ones:
 
@@ -74,7 +74,7 @@ The repository is organized into folders. Here are the most important ones:
 
 ![Docs Folder Contents](/images/contrib/contrib-nav-02-docs-folder.png)
 
-### Step 3: Navigate to a Page
+## Step 3: Navigate to a Page
 
 1. Click through the folders to find the page you want to edit
 2. For example, to find the Biosafety-Land getting started page:
@@ -89,7 +89,7 @@ The **breadcrumb navigation** at the top of the page shows your current location
 
 ![Breadcrumb Navigation](/images/contrib/contrib-nav-04-breadcrumbs.png)
 
-### Step 4: Find a Specific File
+## Step 4: Find a Specific File
 
 If you know the name of the file you want to edit, you can search for it:
 
@@ -104,7 +104,7 @@ If you know the name of the file you want to edit, you can search for it:
 Press the **T** key on your keyboard from any page in the repository to quickly open the file search.
 :::
 
-### Understanding File Paths and URLs
+## Understanding File Paths and URLs
 
 Each documentation file maps to a page on the live website. The pattern is:
 
@@ -119,6 +119,6 @@ The rules are:
 - Remove `.md` from the end of the filename
 - The rest of the path becomes the URL
 
-### Next Steps
+## Next Steps
 
 Now that you know how to navigate the repository, proceed to [Understanding Branches](./03-branching.md) to learn how changes are organized before editing.
