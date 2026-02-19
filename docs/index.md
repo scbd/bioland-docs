@@ -14,6 +14,9 @@ hero:
     - theme: brand
       text: Biosafety Land (National BCH)
       link: /biosafety-land/
+    - theme: alt
+      text: Contribute ✏️
+      link: /contrib/
 
 features:
   - icon: 🌍

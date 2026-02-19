@@ -39,6 +39,7 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Bioland", link: "/bioland/" },
       { text: "Biosafety-Land", link: "/biosafety-land/" },
+      { text: "Contribute", link: "/contrib/" },
     ],
 
     sidebar: {
@@ -220,6 +221,22 @@ export default defineConfig({
               text: "Content Types",
               link: "/biosafety-land/context/content-types",
             },
+          ],
+        },
+      ],
+      "/contrib/": [
+        {
+          text: "Contributing Guide",
+          items: [
+            { text: "Overview", link: "/contrib/" },
+            { text: "1. GitHub Account", link: "/contrib/01-github-account" },
+            { text: "2. Navigating the Repo", link: "/contrib/02-navigating-repo" },
+            { text: "3. Understanding Branches", link: "/contrib/03-branching" },
+            { text: "4. Editing Pages", link: "/contrib/04-editing-pages" },
+            { text: "5. Previewing Changes", link: "/contrib/05-previewing-changes" },
+            { text: "6. Working with Images", link: "/contrib/06-images" },
+            { text: "7. Pull Requests", link: "/contrib/07-pull-requests" },
+            { text: "8. Markdown Reference", link: "/contrib/08-markdown-reference" },
           ],
         },
       ],
