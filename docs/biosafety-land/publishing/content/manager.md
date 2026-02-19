@@ -10,14 +10,17 @@ Content Managers have more options when adding content. The basic steps are the 
 If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
 :::
 
-#### Step 1: Access Publishing Menu
+#### Step 1: Go to Content List
 
-1. Look at the admin toolbar at the top
-2. Click on **Publishing**
-3. The dropdown menu will appear
-4. Click **Content**
+Navigate to the content management page:
 
-![Content Manager Menu](/images/biosafety-land/content/content-add-content-manager-01-content-list.png)
+```
+/admin/content
+```
+
+::: tip Need help navigating?
+See [Your Navigation Options](#your-navigation-options) for all the ways to reach this page.
+:::
 
 #### Step 2: Start Adding Content
 
@@ -93,12 +96,17 @@ Content Managers can edit any content on the site. They have more options than C
 If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
 :::
 
-#### Step 1: Navigate to Content
+#### Step 1: Go to Content List
 
-1. Click **Publishing** in the toolbar
-2. Click **Content**
+Navigate to the content management page:
 
-![Navigate to Content](/images/biosafety-land/content/content-edit-content-manager-02-unpublished-list.png)
+```
+/admin/content
+```
+
+::: tip Need help navigating?
+See [Your Navigation Options](#your-navigation-options) for all the ways to reach this page.
+:::
 
 #### Step 2: Search for Content
 
@@ -186,12 +194,17 @@ Content Managers can delete any content on the site. They have more responsibili
 If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
 :::
 
-#### Step 1: Navigate to Content
+#### Step 1: Go to Content List
 
-1. Click **Publishing** in the toolbar
-2. Click **Content**
+Navigate to the content management page:
 
-![Navigate to Content](/images/biosafety-land/content/content-delete-content-manager-02-operations-menu.png)
+```
+/admin/content
+```
+
+::: tip Need help navigating?
+See [Your Navigation Options](#your-navigation-options) for all the ways to reach this page.
+:::
 
 #### Step 2: Search for Content to Delete
 
@@ -295,12 +308,17 @@ Content Managers have more clone options. They can clone any content on the site
 If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
 :::
 
-#### Step 1: Navigate to Content
+#### Step 1: Go to Content List
 
-1. Click **Publishing** in the toolbar
-2. Click **Content** from the dropdown
+Navigate to the content management page:
 
-![Browse Content](/images/biosafety-land/content/content-clone-content-manager-02-operations-menu.png)
+```
+/admin/content
+```
+
+::: tip Need help navigating?
+See [Your Navigation Options](#your-navigation-options) for all the ways to reach this page.
+:::
 
 #### Step 2: Find Content to Clone
 
@@ -384,12 +402,17 @@ Content Managers can translate any content on the site. They have more translati
 If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
 :::
 
-#### Step 1: Navigate to Content
+#### Step 1: Go to Content List
 
-1. Click **Publishing** in the toolbar
-2. Click **Content** from the dropdown
+Navigate to the content management page:
 
-![Browse Content](/images/biosafety-land/content/content-translate-content-manager-02-translate-tab.png)
+```
+/admin/content
+```
+
+::: tip Need help navigating?
+See [Your Navigation Options](#your-navigation-options) for all the ways to reach this page.
+:::
 
 #### Step 2: Find Content to Translate
 

@@ -112,6 +112,10 @@ export default defineConfig({
                   link: "/biosafety-land/publishing/content/role-comparison",
                 },
                 {
+                  text: "Navigation Options",
+                  link: "/biosafety-land/publishing/content/#your-navigation-options",
+                },
+                {
                   text: "Tips & Best Practices",
                   link: "/biosafety-land/publishing/content/tipes-and-best-practices",
                 },

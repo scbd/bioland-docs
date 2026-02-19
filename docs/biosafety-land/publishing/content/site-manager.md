@@ -11,29 +11,26 @@ Site Managers have full control. They can add content and access all site featur
 If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
 :::
 
-#### Step 1: Access Admin Toolbar
+#### Step 1: Go to Content List
 
-1. The admin toolbar is at the top
-2. Site Managers see all six menu items
-3. Click on **Publishing**
+Navigate to the content management page:
 
-![Site Manager Toolbar](/images/biosafety-land/content/content-add-site-manager-02-toolbar.png)
+```
+/admin/content
+```
 
-#### Step 2: Navigate to Content
+::: tip Need help navigating?
+See [Your Navigation Options](#your-navigation-options) for all the ways to reach this page.
+:::
 
-1. In the Publishing menu, click **Content**
-2. You will see the content list page
-
-![Navigate to Content](/images/biosafety-land/content/content-add-site-manager-03-content.png)
-
-#### Step 3: Click Add Content
+#### Step 2: Click Add Content
 
 1. Find the **Add Content** button
 2. Click to begin creating content
 
 ![Add Content Button](/images/biosafety-land/content/content-add-site-manager-04-add-button.png)
 
-#### Step 4: Choose Any Content Type
+#### Step 3: Choose Any Content Type
 
 Site Managers can create any content type:
 
@@ -48,7 +45,7 @@ For details on each content type, see [Content Types](/biosafety-land/context/co
 
 ![Choose Content Type](/images/biosafety-land/content/content-add-site-manager-05-choose-type.png)
 
-#### Step 5: Fill In Content Details
+#### Step 4: Fill In Content Details
 
 1. Enter the title
 2. Add body content
@@ -57,7 +54,7 @@ For details on each content type, see [Content Types](/biosafety-land/context/co
 
 ![Fill Details](/images/biosafety-land/content/content-add-site-manager-06-fill-details.png)
 
-#### Step 6: Configure All Settings
+#### Step 5: Configure All Settings
 
 ![All Settings](/images/biosafety-land/content/content-add-site-manager-07-additional-fields.png)
 
@@ -72,7 +69,7 @@ Site Managers have access to all options:
 7. **SEO** - Meta tags and descriptions
 8. **Advanced** - Technical configurations
 
-#### Step 7: Set Advanced Options
+#### Step 6: Set Advanced Options
 
 ![Advanced Options](/images/biosafety-land/content/content-add-site-manager-08-publishing-options.png)
 
@@ -84,7 +81,7 @@ Site Managers can configure:
 - Translation settings
 - Access restrictions
 
-#### Step 8: Save Content
+#### Step 7: Save Content
 
 1. Review all settings
 2. Choose save option:
@@ -106,13 +103,17 @@ Site Managers have full editing control. They can edit any content and access al
 If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
 :::
 
-#### Step 1: Access Content Management
+#### Step 1: Go to Content List
 
-1. Click **Publishing** in the admin toolbar
-2. Select **Content**
-3. The content list will open
+Navigate to the content management page:
 
-![Access Content](/images/biosafety-land/content/content-edit-site-manager-02-edit-form-middle.png)
+```
+/admin/content
+```
+
+::: tip Need help navigating?
+See [Your Navigation Options](#your-navigation-options) for all the ways to reach this page.
+:::
 
 #### Step 2: Use Advanced Search
 
@@ -204,13 +205,17 @@ Site Managers have full deletion control. They must be very careful.
 If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
 :::
 
-#### Step 1: Access Content Management
+#### Step 1: Go to Content List
 
-1. Click **Publishing** in the admin toolbar
-2. Select **Content**
-3. The content list will open
+Navigate to the content management page:
 
-![Access Content](/images/biosafety-land/content/content-delete-site-manager-02-operations-menu.png)
+```
+/admin/content
+```
+
+::: tip Need help navigating?
+See [Your Navigation Options](#your-navigation-options) for all the ways to reach this page.
+:::
 
 #### Step 2: Run Advanced Search
 
@@ -370,12 +375,17 @@ Site Managers have full clone capabilities. They can clone anything and configur
 If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
 :::
 
-#### Step 1: Access Admin Tools
+#### Step 1: Go to Content List
 
-1. Click **Publishing** in the toolbar
-2. Click **Content** from the dropdown
+Navigate to the content management page:
 
-![Access All Content](/images/biosafety-land/content/content-clone-site-manager-01-content-list.png)
+```
+/admin/content
+```
+
+::: tip Need help navigating?
+See [Your Navigation Options](#your-navigation-options) for all the ways to reach this page.
+:::
 
 #### Step 2: Find Target Content
 
@@ -476,12 +486,17 @@ Site Managers have full translation control. They can configure all language set
 If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
 :::
 
-#### Step 1: Access Admin Tools
+#### Step 1: Go to Content List
 
-1. Click **Publishing** in the toolbar
-2. Click **Content** from the dropdown
+Navigate to the content management page:
 
-![Access All Content](/images/biosafety-land/content/content-translate-site-manager-02-translate-tab.png)
+```
+/admin/content
+```
+
+::: tip Need help navigating?
+See [Your Navigation Options](#your-navigation-options) for all the ways to reach this page.
+:::
 
 #### Step 2: Find Content to Translate
 

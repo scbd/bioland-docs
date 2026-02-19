@@ -1,12 +1,8 @@
-# Media Management - Contributor Role
+## Contributor Role
 
-This guide covers all media operations for Contributors.
+Contributors can add new media to the site. This section covers all media operations available to Contributors.
 
-[[toc]]
-
----
-
-## Add Media - Contributor Role
+### Add Media - Contributor {#add-media-contributor}
 
 Contributors can add new media to the site. Here are the steps.
 
@@ -14,13 +10,13 @@ Contributors can add new media to the site. Here are the steps.
 If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
 :::
 
-### Step 2: Open the Admin Menu
+#### Step 2: Open the Admin Menu
 
 1. Look at the top of the page
 2. Find the black toolbar
 3. Click on **Tools** in the toolbar
 
-### Step 3: Go to Media Section
+#### Step 3: Go to Media Section
 
 1. In the toolbar, click **Publishing**
 2. A menu will drop down
@@ -28,7 +24,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Media List](/images/biosafety-land/media/media-add-contributor-01-media-list.png)
 
-### Step 4: Click Add Media Button
+#### Step 4: Click Add Media Button
 
 1. You will see a list of media items
 2. Look for the **Add Media** button at the top
@@ -36,7 +32,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Add Media Button](/images/biosafety-land/media/media-add-contributor-02-add-button.png)
 
-### Step 5: Choose Media Type
+#### Step 5: Choose Media Type
 
 1. A new page will load
 2. You will see different media types
@@ -51,7 +47,7 @@ Common media types:
 
 ![Select Media Type](/images/biosafety-land/media/media-add-contributor-03-select-type.png)
 
-### Step 6: Upload Your File
+#### Step 6: Upload Your File
 
 1. Click the **Choose File** button
 2. A file browser will open
@@ -61,7 +57,7 @@ Common media types:
 
 ![Image Upload Form](/images/biosafety-land/media/media-add-contributor-04-image-form.png)
 
-### Step 7: Fill In Media Details
+#### Step 7: Fill In Media Details
 
 1. Enter a name for your media
 2. Add a description (optional)
@@ -72,7 +68,7 @@ Common media types:
 
 ![Metadata Fields](/images/biosafety-land/media/media-add-contributor-06-metadata-fields.png)
 
-### Step 8: Save the Media
+#### Step 8: Save the Media
 
 1. Review all the information
 2. Click the **Save** button
@@ -80,7 +76,7 @@ Common media types:
 
 ![Save Button](/images/biosafety-land/media/media-add-contributor-07-save-button.png)
 
-### Step 9: Confirm Success
+#### Step 9: Confirm Success
 
 1. A green message will appear
 2. It says "Media saved successfully"
@@ -92,7 +88,7 @@ Common media types:
 
 ---
 
-## Edit Media - Contributor Role
+### Edit Media - Contributor {#edit-media-contributor}
 
 Contributors can edit media they created. Here are the steps.
 
@@ -100,13 +96,13 @@ Contributors can edit media they created. Here are the steps.
 If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
 :::
 
-### Step 2: Go to Media List
+#### Step 2: Go to Media List
 
 1. Click on **Tools** in the toolbar
 2. Click **Publishing**
 3. Click **Media**
 
-### Step 3: Find the Media
+#### Step 3: Find the Media
 
 1. Look through the media list
 2. Find the media you want to edit
@@ -114,7 +110,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Media List with Actions](/images/biosafety-land/media/media-edit-contributor-01-media-list-with-actions.png)
 
-### Step 4: Click Edit
+#### Step 4: Click Edit
 
 1. Click on the media name
 2. Or click the **Edit** button next to it
@@ -122,7 +118,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Edit Form Top](/images/biosafety-land/media/media-edit-contributor-02-edit-form-top.png)
 
-### Step 5: Update Media Details
+#### Step 5: Update Media Details
 
 1. Change the name if needed
 2. Update the description
@@ -131,7 +127,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Edit Form Middle](/images/biosafety-land/media/media-edit-contributor-03-edit-form-middle.png)
 
-### Step 6: Save Changes
+#### Step 6: Save Changes
 
 1. Review your changes
 2. Click the **Save** button
@@ -139,7 +135,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Editing Changes](/images/biosafety-land/media/media-edit-contributor-05-editing-changes.png)
 
-### Step 7: Confirm Success
+#### Step 7: Confirm Success
 
 1. A green message appears
 2. It says "Media updated successfully"
@@ -151,7 +147,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ---
 
-## Delete Media - Contributor Role
+### Delete Media - Contributor {#delete-media-contributor}
 
 Contributors can delete media they created. Here are the steps.
 
@@ -159,13 +155,13 @@ Contributors can delete media they created. Here are the steps.
 If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
 :::
 
-### Step 2: Go to Media List
+#### Step 2: Go to Media List
 
 1. Click on **Tools** in the toolbar
 2. Click **Publishing**
 3. Click **Media**
 
-### Step 3: Find the Media
+#### Step 3: Find the Media
 
 1. Look through the media list
 2. Find the media you want to delete
@@ -173,7 +169,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Operations Dropdown](/images/biosafety-land/media/media-delete-contributor-01-operations-dropdown.png)
 
-### Step 4: Click Delete
+#### Step 4: Click Delete
 
 1. Click on the media name
 2. Or click the **Delete** button
@@ -181,7 +177,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Confirmation Page](/images/biosafety-land/media/media-delete-contributor-02-confirmation-page.png)
 
-### Step 5: Confirm Deletion
+#### Step 5: Confirm Deletion
 
 1. Read the warning message
 2. Make sure you want to delete this
@@ -192,7 +188,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Success Message](/images/biosafety-land/media/media-delete-contributor-03-success-message.png)
 
-### Step 6: Verify Deletion
+#### Step 6: Verify Deletion
 
 1. A message appears
 2. It says "Media deleted"
@@ -204,7 +200,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ---
 
-## Translate Media - Contributor Role
+### Translate Media - Contributor {#translate-media-contributor}
 
 Contributors can translate media to other languages. Here are the steps.
 
@@ -212,13 +208,13 @@ Contributors can translate media to other languages. Here are the steps.
 If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
 :::
 
-### Step 2: Go to Media List
+#### Step 2: Go to Media List
 
 1. Click on **Tools** in the toolbar
 2. Click **Publishing**
 3. Click **Media**
 
-### Step 3: Find the Media
+#### Step 3: Find the Media
 
 1. Look through the media list
 2. Find the media to translate
@@ -226,7 +222,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Media List](/images/biosafety-land/media/media-translate-contributor-01-media-list.png)
 
-### Step 4: Click Translate
+#### Step 4: Click Translate
 
 1. Click on the media name
 2. Find the **Translate** tab
@@ -235,7 +231,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Operations Dropdown](/images/biosafety-land/media/media-translate-contributor-02-operations-dropdown.png)
 
-### Step 5: Choose Target Language
+#### Step 5: Choose Target Language
 
 1. See the available languages
 2. Choose the language you need
@@ -243,7 +239,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Translations Page](/images/biosafety-land/media/media-translate-contributor-03-translations-page.png)
 
-### Step 6: Translate the Name
+#### Step 6: Translate the Name
 
 1. Enter the name in new language
 2. Keep it similar to original
@@ -252,7 +248,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Edit Translation](/images/biosafety-land/media/media-translate-contributor-04-edit-translation.png)
 
-### Step 7: Translate Description
+#### Step 7: Translate Description
 
 1. Enter description in new language
 2. Keep the same meaning
@@ -261,7 +257,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Editing Translation](/images/biosafety-land/media/media-translate-contributor-05-editing-translation.png)
 
-### Step 8: Save Translation
+#### Step 8: Save Translation
 
 1. Review all translations
 2. Click the **Save** button
@@ -269,7 +265,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Success Message](/images/biosafety-land/media/media-translate-contributor-06-success-message.png)
 
-### Step 9: Confirm Success
+#### Step 9: Confirm Success
 
 1. A green message appears
 2. It says "Translation saved"

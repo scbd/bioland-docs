@@ -1,12 +1,8 @@
-# Media Management - Role Comparison
+## Role Comparison
 
-This page compares what each role can do when working with media.
+This table shows what each role can do when adding, editing, deleting, and translating media.
 
-[[toc]]
-
----
-
-## Role Comparison Table
+### Role Comparison Table
 
 | Feature | Contributor | Content Manager | Site Manager |
 |---------|:-----------:|:---------------:|:------------:|
@@ -63,9 +59,9 @@ This page compares what each role can do when working with media.
 
 ---
 
-## Key Differences
+### Key Differences
 
-### Adding Media
+#### Adding Media
 
 **Contributor:**
 - Basic media upload
@@ -85,7 +81,7 @@ This page compares what each role can do when working with media.
 - Advanced configuration
 - Full process (11 steps)
 
-### Editing Media
+#### Editing Media
 
 **Contributor:**
 - Can only edit own media
@@ -105,7 +101,7 @@ This page compares what each role can do when working with media.
 - Advanced settings
 - Full control (10 steps)
 
-### Deleting Media
+#### Deleting Media
 
 **Contributor:**
 - Can only delete own media
@@ -126,7 +122,7 @@ This page compares what each role can do when working with media.
 - Backup capability
 - Most thorough (11 steps)
 
-### Translating Media
+#### Translating Media
 
 **Contributor:**
 - Can translate own media
@@ -148,7 +144,7 @@ This page compares what each role can do when working with media.
 
 ---
 
-## Related Pages
+### Related Pages
 
 - [Contributor Guide](./contributor.md)
 - [Content Manager Guide](./content-manager.md)

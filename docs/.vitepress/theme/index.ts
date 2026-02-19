@@ -4,11 +4,13 @@ import './main-home.css'
 import './bioland.css'
 import './biosafety.css'
 import Layout from './Layout.vue'
+import EditIncludedLink from './EditIncludedLink.vue'
 
 export default {
   extends: DefaultTheme,
   Layout,
-  enhanceApp({ router }) {
+  enhanceApp({ app, router }) {
+    app.component('EditIncludedLink', EditIncludedLink)
     if (typeof window === 'undefined') return
 
     // Force dark mode

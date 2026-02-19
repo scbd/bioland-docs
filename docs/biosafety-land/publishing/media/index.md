@@ -1,10 +1,26 @@
-# Media Management
+---
+outline: false
+---
 
-This guide covers how to manage media (images, videos, documents) in Biosafety Land. Select your role below to see specific instructions.
+# Media
+
+This guide shows you how to manage media in Biosafety Land. It covers all three user roles, organized from lowest to highest permission level.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Contributor Role](#contributor-role)
+  - [Add](#add-media-contributor), [Edit](#edit-media-contributor), [Delete](#delete-media-contributor), [Translate](#translate-media-contributor)
+- [Content Manager Role](#content-manager-role)
+  - [Add](#add-media-content-manager), [Edit](#edit-media-content-manager), [Delete](#delete-media-content-manager), [Translate](#translate-media-content-manager)
+- [Site Manager Role](#site-manager-role)
+  - [Add](#add-media-site-manager), [Edit](#edit-media-site-manager), [Delete](#delete-media-site-manager), [Translate](#translate-media-site-manager)
+- [Role Comparison](#role-comparison)
+- [Tips and Best Practices](#tips-and-best-practices)
 
 ## Overview
 
-All three roles can add media to Biosafety Land. Media includes images, videos, and documents. This guide shows you how to add media step by step.
+All three roles can add media to Biosafety Land. The steps are similar for each role. This guide shows you how to manage media step by step.
 
 ### What You Need
 
@@ -19,46 +35,24 @@ All three roles can add media to Biosafety Land. Media includes images, videos, 
 2. **Content Manager** - Can add and manage media
 3. **Site Manager** - Can add media and manage the whole site
 
-### Supported File Types
+---
 
-**Images:**
-- JPG, JPEG (photos)
-- PNG (graphics with transparency)
-- GIF (animated images)
-- SVG (scalable vector graphics)
+<!--@include: ./contributor.md-->
 
-**Videos:**
-- MP4 (most common)
-- WebM (web-optimized)
-- OGV (open format)
+<EditIncludedLink path="biosafety-land/publishing/media/contributor.md" />
 
-**Documents:**
-- PDF (portable documents)
-- DOC, DOCX (Word documents)
-- XLS, XLSX (Excel spreadsheets)
-- TXT (text files)
+<!--@include: ./content-manager.md-->
 
-## Quick Links by Role
+<EditIncludedLink path="biosafety-land/publishing/media/content-manager.md" />
 
-| Role | Guide |
-|------|-------|
-| Contributor | [Contributor Guide](./contributor.md) |
-| Content Manager | [Content Manager Guide](./content-manager.md) |
-| Site Manager | [Site Manager Guide](./site-manager.md) |
+<!--@include: ./site-manager.md-->
 
-## Operations Covered
+<EditIncludedLink path="biosafety-land/publishing/media/site-manager.md" />
 
-Each role guide covers these operations:
+<!--@include: ./role-comparison.md-->
 
-- **Add Media** - Upload new images, videos, or documents
-- **Edit Media** - Update media details and metadata
-- **Delete Media** - Remove media from the system
-- **Translate Media** - Add translations for other languages
+<EditIncludedLink path="biosafety-land/publishing/media/role-comparison.md" />
 
-## Role Comparison
+<!--@include: ./tips-and-best-practices.md-->
 
-See the [Role Comparison](./role-comparison.md) page to understand the differences between roles.
-
-## Best Practices
-
-See [Tips and Best Practices](./tips-and-best-practices.md) for helpful guidelines.
+<EditIncludedLink path="biosafety-land/publishing/media/tips-and-best-practices.md" />

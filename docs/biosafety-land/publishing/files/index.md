@@ -67,8 +67,16 @@ Check with your Site Manager for file size limits. Large files may take longer t
 
 <!--@include: ./content-manager.md-->
 
+<EditIncludedLink path="biosafety-land/publishing/files/content-manager.md" />
+
 <!--@include: ./site-manager.md-->
+
+<EditIncludedLink path="biosafety-land/publishing/files/site-manager.md" />
 
 <!--@include: ./role-comparison.md-->
 
+<EditIncludedLink path="biosafety-land/publishing/files/role-comparison.md" />
+
 <!--@include: ./tips-and-best-practices.md-->
+
+<EditIncludedLink path="biosafety-land/publishing/files/tips-and-best-practices.md" />

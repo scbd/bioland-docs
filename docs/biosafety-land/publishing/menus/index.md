@@ -64,8 +64,16 @@ Both Content Managers and Site Managers access menus the same way:
 
 <!--@include: ./content-manager.md-->
 
+<EditIncludedLink path="biosafety-land/publishing/menus/content-manager.md" />
+
 <!--@include: ./site-manager.md-->
+
+<EditIncludedLink path="biosafety-land/publishing/menus/site-manager.md" />
 
 <!--@include: ./role-comparison.md-->
 
+<EditIncludedLink path="biosafety-land/publishing/menus/role-comparison.md" />
+
 <!--@include: ./tips-and-best-practices.md-->
+
+<EditIncludedLink path="biosafety-land/publishing/menus/tips-and-best-practices.md" />

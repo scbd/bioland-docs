@@ -1,12 +1,8 @@
-# Media Management - Site Manager Role
+## Site Manager Role
 
-This guide covers all media operations for Site Managers.
+Site Managers have full control. They can manage media and access all site features.
 
-[[toc]]
-
----
-
-## Add Media - Site Manager Role
+### Add Media - Site Manager {#add-media-site-manager}
 
 Site Managers can add media with full control. Here are the steps.
 
@@ -14,13 +10,13 @@ Site Managers can add media with full control. Here are the steps.
 If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
 :::
 
-### Step 2: Open the Admin Menu
+#### Step 2: Open the Admin Menu
 
 1. Look at the top of the page
 2. Find the black toolbar
 3. Click on **Tools** in the toolbar
 
-### Step 3: Go to Media Section
+#### Step 3: Go to Media Section
 
 1. In the toolbar, click **Publishing**
 2. A menu will drop down
@@ -28,7 +24,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Admin Menu](/images/biosafety-land/media/media-add-site-manager-01-admin-menu.png)
 
-### Step 4: Click Add Media Button
+#### Step 4: Click Add Media Button
 
 1. You will see a list of media items
 2. Look for the **Add Media** button at the top
@@ -36,7 +32,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Media List](/images/biosafety-land/media/media-add-site-manager-02-media-list.png)
 
-### Step 5: Choose Media Type
+#### Step 5: Choose Media Type
 
 1. A new page will load
 2. You will see different media types
@@ -45,7 +41,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Type Selection](/images/biosafety-land/media/media-add-site-manager-04-type-selection.png)
 
-### Step 6: Upload Your File
+#### Step 6: Upload Your File
 
 1. Click the **Choose File** button
 2. A file browser will open
@@ -57,7 +53,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Form Top](/images/biosafety-land/media/media-add-site-manager-05-form-top.png)
 
-### Step 7: Fill In Media Details
+#### Step 7: Fill In Media Details
 
 1. Enter a name for your media
 2. Add a detailed description
@@ -68,7 +64,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Form Middle](/images/biosafety-land/media/media-add-site-manager-06-form-middle.png)
 
-### Step 8: Set Publishing Options
+#### Step 8: Set Publishing Options
 
 1. Scroll down to Publishing Options
 2. Choose published or unpublished
@@ -79,7 +75,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Authoring Info](/images/biosafety-land/media/media-add-site-manager-07-authoring-info.png)
 
-### Step 9: Configure Advanced Settings
+#### Step 9: Configure Advanced Settings
 
 1. Scroll to Advanced Settings
 2. Set URL alias if needed
@@ -91,7 +87,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Revision Info](/images/biosafety-land/media/media-add-site-manager-08-revision-info.png)
 
-### Step 10: Save the Media
+#### Step 10: Save the Media
 
 1. Review all the information
 2. Check all settings are correct
@@ -100,7 +96,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Save Options](/images/biosafety-land/media/media-add-site-manager-09-save-options.png)
 
-### Step 11: Confirm Success
+#### Step 11: Confirm Success
 
 1. A green message will appear
 2. It says "Media saved successfully"
@@ -113,7 +109,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ---
 
-## Edit Media - Site Manager Role
+### Edit Media - Site Manager {#edit-media-site-manager}
 
 Site Managers can edit all media with full control. Here are the steps.
 
@@ -121,13 +117,13 @@ Site Managers can edit all media with full control. Here are the steps.
 If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
 :::
 
-### Step 2: Go to Media List
+#### Step 2: Go to Media List
 
 1. Click on **Tools** in the toolbar
 2. Click **Publishing**
 3. Click **Media**
 
-### Step 3: Find the Media
+#### Step 3: Find the Media
 
 1. Look through the media list
 2. Find the media you want to edit
@@ -137,7 +133,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Media List](/images/biosafety-land/media/media-edit-site-manager-01-media-list.png)
 
-### Step 4: Click Edit
+#### Step 4: Click Edit
 
 1. Click on the media name
 2. Or click the **Edit** button
@@ -145,7 +141,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Operations](/images/biosafety-land/media/media-edit-site-manager-02-operations.png)
 
-### Step 5: Update Media Details
+#### Step 5: Update Media Details
 
 1. Change the name if needed
 2. Update the description
@@ -156,7 +152,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Edit Form](/images/biosafety-land/media/media-edit-site-manager-03-edit-form.png)
 
-### Step 6: Update Publishing Options
+#### Step 6: Update Publishing Options
 
 1. Scroll to Publishing Options
 2. Change publish status
@@ -166,7 +162,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Metadata Section](/images/biosafety-land/media/media-edit-site-manager-04-metadata-section.png)
 
-### Step 7: Update Advanced Settings
+#### Step 7: Update Advanced Settings
 
 1. Scroll to Advanced Settings
 2. Change URL alias if needed
@@ -176,7 +172,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Authoring](/images/biosafety-land/media/media-edit-site-manager-05-authoring.png)
 
-### Step 8: Replace File (Optional)
+#### Step 8: Replace File (Optional)
 
 1. If you need a new file version
 2. Click **Choose File**
@@ -186,7 +182,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![URL Alias](/images/biosafety-land/media/media-edit-site-manager-07-url-alias.png)
 
-### Step 9: Save Changes
+#### Step 9: Save Changes
 
 1. Review all your changes
 2. Check all settings are correct
@@ -195,7 +191,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Publishing](/images/biosafety-land/media/media-edit-site-manager-08-publishing.png)
 
-### Step 10: Confirm Success
+#### Step 10: Confirm Success
 
 1. A green message appears
 2. It says "Media updated successfully"
@@ -208,7 +204,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ---
 
-## Delete Media - Site Manager Role
+### Delete Media - Site Manager {#delete-media-site-manager}
 
 Site Managers can delete any media with full review. Here are the steps.
 
@@ -216,13 +212,13 @@ Site Managers can delete any media with full review. Here are the steps.
 If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
 :::
 
-### Step 2: Go to Media List
+#### Step 2: Go to Media List
 
 1. Click on **Tools** in the toolbar
 2. Click **Publishing**
 3. Click **Media**
 
-### Step 3: Find the Media
+#### Step 3: Find the Media
 
 1. Look through the media list
 2. Find the media you want to delete
@@ -232,7 +228,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Media List](/images/biosafety-land/media/media-delete-site-manager-01-media-list.png)
 
-### Step 4: Review Media Details
+#### Step 4: Review Media Details
 
 1. Click on the media name
 2. Review all details
@@ -242,7 +238,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Operations Menu](/images/biosafety-land/media/media-delete-site-manager-02-operations-menu.png)
 
-### Step 5: Check Media Usage
+#### Step 5: Check Media Usage
 
 1. Look for usage information
 2. See where media is used
@@ -254,7 +250,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Delete Option](/images/biosafety-land/media/media-delete-site-manager-03-delete-option.png)
 
-### Step 6: Check Permissions
+#### Step 6: Check Permissions
 
 1. Review who can access this media
 2. Check workflow states
@@ -263,7 +259,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Confirm Top](/images/biosafety-land/media/media-delete-site-manager-04-confirm-top.png)
 
-### Step 7: Back Up (If Important)
+#### Step 7: Back Up (If Important)
 
 1. If media is important
 2. Download it first
@@ -272,7 +268,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Usage List](/images/biosafety-land/media/media-delete-site-manager-05-usage-list.png)
 
-### Step 8: Click Delete
+#### Step 8: Click Delete
 
 1. Find the **Delete** button
 2. Click it
@@ -280,7 +276,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Delete Button](/images/biosafety-land/media/media-delete-site-manager-06-delete-button.png)
 
-### Step 9: Review Final Warning
+#### Step 9: Review Final Warning
 
 1. Read all warning messages
 2. Check impact on site
@@ -289,7 +285,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Success](/images/biosafety-land/media/media-delete-site-manager-07-success.png)
 
-### Step 10: Confirm Deletion
+#### Step 10: Confirm Deletion
 
 1. When certain, click **Delete**
 2. Or click **Cancel** to keep it
@@ -299,7 +295,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![All Users Media](/images/biosafety-land/media/media-delete-site-manager-08-all-users-media.png)
 
-### Step 11: Verify and Monitor
+#### Step 11: Verify and Monitor
 
 1. A message appears
 2. It says "Media deleted successfully"
@@ -313,7 +309,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ---
 
-## Translate Media - Site Manager Role
+### Translate Media - Site Manager {#translate-media-site-manager}
 
 Site Managers can translate media with full control. Here are the steps.
 
@@ -321,13 +317,13 @@ Site Managers can translate media with full control. Here are the steps.
 If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
 :::
 
-### Step 2: Go to Media List
+#### Step 2: Go to Media List
 
 1. Click on **Tools** in the toolbar
 2. Click **Publishing**
 3. Click **Media**
 
-### Step 3: Find the Media
+#### Step 3: Find the Media
 
 1. Look through the media list
 2. Find the media to translate
@@ -337,7 +333,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Media View](/images/biosafety-land/media/media-translate-site-manager-01-media-view.png)
 
-### Step 4: Click Translate
+#### Step 4: Click Translate
 
 1. Click on the media name
 2. Find the **Translate** tab
@@ -346,7 +342,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Translate Tab](/images/biosafety-land/media/media-translate-site-manager-02-translate-tab.png)
 
-### Step 5: Review Language Configuration
+#### Step 5: Review Language Configuration
 
 1. Check site languages
 2. See which are enabled
@@ -355,7 +351,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Translations Page](/images/biosafety-land/media/media-translate-site-manager-03-translations-page.png)
 
-### Step 6: Choose Target Language
+#### Step 6: Choose Target Language
 
 1. See all available languages
 2. Choose the language you need
@@ -364,7 +360,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Add Translation](/images/biosafety-land/media/media-translate-site-manager-04-add-translation.png)
 
-### Step 7: Translate All Fields
+#### Step 7: Translate All Fields
 
 1. Translate the name
 2. Translate description
@@ -375,7 +371,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Translation Form](/images/biosafety-land/media/media-translate-site-manager-05-translation-form.png)
 
-### Step 8: Set Publishing Options
+#### Step 8: Set Publishing Options
 
 1. Choose publish status
 2. Set author for translation
@@ -385,7 +381,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Translated Fields](/images/biosafety-land/media/media-translate-site-manager-06-translated-fields.png)
 
-### Step 9: Configure Advanced Settings
+#### Step 9: Configure Advanced Settings
 
 1. Set URL alias for language
 2. Update revision log
@@ -395,7 +391,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Save](/images/biosafety-land/media/media-translate-site-manager-07-save.png)
 
-### Step 10: Upload Language-Specific File (Optional)
+#### Step 10: Upload Language-Specific File (Optional)
 
 1. If needed, upload different file
 2. For language-specific content
@@ -404,7 +400,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Success](/images/biosafety-land/media/media-translate-site-manager-08-success.png)
 
-### Step 11: Save Translation
+#### Step 11: Save Translation
 
 1. Review all settings
 2. Check everything is correct
@@ -414,7 +410,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Publish Translation](/images/biosafety-land/media/media-translate-site-manager-09-publish-translation.png)
 
-### Step 12: Verify and Test
+#### Step 12: Verify and Test
 
 1. A green message appears
 2. It says "Translation saved successfully"

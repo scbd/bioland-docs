@@ -10,23 +10,19 @@ Contributors can add new content to the site. Here are the steps.
 If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
 :::
 
-#### Step 1: Open the Admin Toolbar
+#### Step 1: Go to Content List
 
-1. Look at the top of the page
-2. Find the black admin toolbar
-3. Locate the **Publishing** menu
+Navigate to the content management page:
 
-![Admin Toolbar](/images/biosafety-land/content/content-add-contributor-02-admin-menu.png)
+```
+/admin/content
+```
 
-#### Step 2: Navigate to Content
+::: tip Need help navigating?
+See [Your Navigation Options](#your-navigation-options) for all the ways to reach this page.
+:::
 
-1. Click **Publishing** in the toolbar
-2. A dropdown menu will appear
-3. Click on **Content**
-
-![Publishing Menu](/images/biosafety-land/content/content-add-contributor-03-navigate-content.png)
-
-#### Step 3: Click Add Content Button
+#### Step 2: Click Add Content Button
 
 1. You will see a list of existing content
 2. Look for the **Add Content** button at the top
@@ -34,7 +30,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Content List with Add Button](/images/biosafety-land/content/content-add-contributor-04-add-button.png)
 
-#### Step 4: Choose Content Type
+#### Step 3: Choose Content Type
 
 1. A new page will load showing available content types
 2. You will see different content types listed
@@ -51,7 +47,7 @@ For a complete list of content types and their fields, see [Content Types](/bios
 
 ![Content Type Selection](/images/biosafety-land/content/content-add-contributor-05-choose-type.png)
 
-#### Step 5: Fill In the Content Form
+#### Step 4: Fill In the Content Form
 
 1. Enter a **Title** for your content
 2. Fill in the **Body** text using the rich text editor
@@ -68,7 +64,7 @@ Write clear, descriptive paragraphs. Use headings to break up long content. The 
 
 ![Form with Content](/images/biosafety-land/content/content-add-contributor-05-form-filled.png)
 
-#### Step 6: Complete Additional Fields
+#### Step 5: Complete Additional Fields
 
 1. Scroll down to see additional fields
 2. Add images, attachments, or media if applicable
@@ -77,7 +73,7 @@ Write clear, descriptive paragraphs. Use headings to break up long content. The 
 
 ![Additional Fields](/images/biosafety-land/content/content-add-contributor-06-fill-form.png)
 
-#### Step 7: Review Publishing Options
+#### Step 6: Review Publishing Options
 
 ::: warning Contributor Limitation
 As a Contributor, you **cannot publish content directly**. Your content will be saved as a draft for review.
@@ -89,7 +85,7 @@ As a Contributor, you **cannot publish content directly**. Your content will be 
 
 ![Publishing Options (Limited for Contributor)](/images/biosafety-land/content/content-add-contributor-07-publish-options.png)
 
-#### Step 8: Save Your Content
+#### Step 7: Save Your Content
 
 1. Review all the information you entered
 2. Click **Save** at the bottom of the form
@@ -122,11 +118,15 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 #### Step 1: Go to Content List
 
-1. Click **Publishing** in the toolbar
-2. Click **Content** from the dropdown
-3. You will see a list of content
+Navigate to the content management page:
 
-![Content List](/images/biosafety-land/content/content-edit-contributor-01-content-list.png)
+```
+/admin/content
+```
+
+::: tip Need help navigating?
+See [Your Navigation Options](#your-navigation-options) for all the ways to reach this page.
+:::
 
 #### Step 2: Find Content and Locate Edit Button
 
@@ -208,11 +208,15 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 #### Step 1: Go to Content List
 
-1. Click **Publishing** in the toolbar
-2. Click **Content** from the dropdown
-3. You will see a list of content
+Navigate to the content management page:
 
-![Content List](/images/biosafety-land/content/content-delete-contributor-01-content-list.png)
+```
+/admin/content
+```
+
+::: tip Need help navigating?
+See [Your Navigation Options](#your-navigation-options) for all the ways to reach this page.
+:::
 
 #### Step 2: Find Content to Delete
 
@@ -285,11 +289,15 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 #### Step 1: Go to Content List
 
-1. Click **Publishing** in the toolbar
-2. Click **Content** from the dropdown
-3. You will see a list of content
+Navigate to the content management page:
 
-![Content List](/images/biosafety-land/content/content-clone-contributor-01-content-list.png)
+```
+/admin/content
+```
+
+::: tip Need help navigating?
+See [Your Navigation Options](#your-navigation-options) for all the ways to reach this page.
+:::
 
 #### Step 2: Find the Content to Clone
 
@@ -366,11 +374,15 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 #### Step 1: Go to Content List
 
-1. Click **Publishing** in the toolbar
-2. Click **Content** from the dropdown
-3. You will see a list of content
+Navigate to the content management page:
 
-![Content List](/images/biosafety-land/content/content-translate-contributor-01-translations-list.png)
+```
+/admin/content
+```
+
+::: tip Need help navigating?
+See [Your Navigation Options](#your-navigation-options) for all the ways to reach this page.
+:::
 
 #### Step 2: Find Content to Translate
 
