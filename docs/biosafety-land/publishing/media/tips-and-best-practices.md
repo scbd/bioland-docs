@@ -60,12 +60,6 @@ This page provides helpful tips for working with media in Biosafety Land.
 - Cannot be undone - be careful
 - Double-check before confirming
 
-### When Cloning
-- Always update the name
-- Make clones unique
-- Note it's a copy
-- Test the clone works
-
 ### When Translating
 - Translate all fields accurately
 - Keep same meaning
@@ -114,13 +108,6 @@ This page provides helpful tips for working with media in Biosafety Land.
 - Update content using this media
 - Test affected pages after deletion
 - Document what was deleted
-
-### When Cloning
-- Use clear naming for clones
-- Update tags to reflect purpose
-- Set correct publish status
-- Document why media was cloned
-- Test clone before using it
 
 ### When Translating
 - Translate all text fields
@@ -173,14 +160,6 @@ This page provides helpful tips for working with media in Biosafety Land.
 - Monitor site after deletion
 - Update affected content immediately
 - Document deletion in system logs
-
-### When Cloning
-- Version control for clones
-- Set appropriate permissions
-- Configure workflow correctly
-- Update revision logs
-- Document clone purpose
-- Review all advanced settings
 
 ### When Translating
 - Review language configuration
@@ -298,13 +277,6 @@ This page provides helpful tips for working with media in Biosafety Land.
 - Don't forget it's permanent
 - Don't delete without a backup plan
 
-### When Cloning
-- Don't keep same name as original
-- Don't clone without purpose
-- Don't forget to update fields
-- Don't create excessive clones
-- Don't skip testing cloned media
-
 ### When Translating
 - Don't use machine translation only
 - Don't skip fields
@@ -323,7 +295,6 @@ This page provides helpful tips for working with media in Biosafety Land.
 - Review usage before deleting
 - Back up important media
 - Communicate with your team
-- Update clones appropriately
 - Keep library organized
 - Translate accurately
 - Review translations with experts
@@ -396,46 +367,6 @@ Before deleting media:
 
 ---
 
-## When to Clone vs. Create New
-
-### Clone when:
-- You need a similar media item
-- You want to keep same settings
-- Creating variations (sizes, crops)
-- Making translated versions
-- Testing changes safely
-- Building on existing work
-
-### Create New when:
-- Media is completely different
-- You want fresh metadata
-- Starting from scratch
-- Different file type needed
-- No relationship to existing
-- Cleaner organization desired
-
-**Best Practice:** Clone saves time. But don't clone everything. Keep library organized.
-
----
-
-## Common Cloning Mistakes to Avoid
-
-### Don't:
-- Keep original name on clone
-- Clone without updating fields
-- Create too many clones
-- Forget to update description
-- Skip testing the clone
-- Clone everything unnecessarily
-
-### Do:
-- Use clear naming for clones
-- Update all relevant fields
-- Clean up unused clones
-- Document clone purpose
-- Test before using
-- Only clone when beneficial
-
 ---
 
 ## Quick Reference
@@ -472,17 +403,6 @@ Before deleting media:
 
 **Site Manager (11 steps):**
 1. Log in → 2. Go to Media list → 3. Find the media → 4. Review details → 5. Check usage → 6. Check permissions → 7. Back up (if important) → 8. Click Delete → 9. Review final warning → 10. Confirm deletion → 11. Verify and monitor
-
-### Cloning Media - Quick Steps
-
-**Contributor (8 steps):**
-1. Log in → 2. Go to Media list → 3. Find media to clone → 4. Click Clone → 5. Update the name → 6. Update description → 7. Save the clone → 8. Confirm success
-
-**Content Manager (9 steps):**
-1. Log in → 2. Go to Media list → 3. Find media to clone → 4. Click Clone → 5. Update the name → 6. Update details → 7. Set publishing options → 8. Save the clone → 9. Confirm success
-
-**Site Manager (10 steps):**
-1. Log in → 2. Go to Media list → 3. Find media to clone → 4. Click Clone → 5. Update the name → 6. Update details → 7. Set publishing options → 8. Configure advanced settings → 9. Save the clone → 10. Confirm success
 
 ### Translating Media - Quick Steps
 
@@ -527,13 +447,6 @@ Before deleting media:
 3. Check workflow state
 4. Contact your Site Manager
 5. Check the user guide
-
-### With Cloning
-1. Ensure name is unique
-2. Check available storage
-3. Verify permissions
-4. Try again if it fails
-5. Contact your Site Manager
 
 ### With Translation
 1. Check language is enabled

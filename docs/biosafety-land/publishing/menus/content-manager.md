@@ -1,219 +1,116 @@
 ## Content Manager Role
 
-Content Managers can add, edit, and delete menus. This section covers all menu operations available to Content Managers.
+Content Managers can manage the links within existing menus. They have the same menu link management capabilities as Site Managers.
 
-### Add Menu - Content Manager {#content-manager-add-steps}
-
-Content Managers can add new menus to the site. Here are the steps.
+### View Menus List {#cm-view-menus}
 
 ::: details Authenticated?
 If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
 :::
 
-#### Step 1: Open the Admin Area
+1. From the admin toolbar, click **Structure** → **Menus**
+2. The menus list page displays all available menus
 
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/menu-add-content-manager-01-admin-menu.png -->
+![Menus list as Content Manager](/images/biosafety-land/menus/menu-list-content-manager.png)
 
-1. Log in to your site
-2. Click your name at the top right
-3. Click "Content Management"
-
-#### Step 2: Go to Structure
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/menu-add-content-manager-02-structure-menu.png -->
-
-1. Look in the left menu
-2. Find "Structure"
-3. Click "Structure"
-
-#### Step 3: Find Menus
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/menu-add-content-manager-03-menus-list.png -->
-
-1. Look for "Menus" in the Structure section
-2. Click "Menus"
-3. You will see a list of all menus
-
-#### Step 4: Start Adding a New Menu
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/menu-add-content-manager-04-add-button.png -->
-
-1. Look at the top of the page
-2. Find the "+ Add menu" button
-3. Click the button
-
-#### Step 5: Fill in Menu Details
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/menu-add-content-manager-05-menu-form.png -->
-
-1. Type the menu name (like "Footer Menu")
-2. Add a description (optional)
-3. This helps you remember what the menu is for
-
-#### Step 6: Configure Menu Settings
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/menu-add-content-manager-06-menu-settings.png -->
-
-1. Choose where the menu appears
-2. Set the menu language
-3. Configure other options if needed
-
-#### Step 7: Save the Menu
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/menu-add-content-manager-07-save-button.png -->
-
-1. Check all your information
-2. Find the "Save" button at the bottom
-3. Click "Save"
-
-#### Step 8: See Your New Menu
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/menu-add-content-manager-08-success-message.png -->
-
-1. You will see a success message
-2. Your new menu appears in the list
-3. Now you can add menu items to it
+You will see six menus: Footer, Footer Credits, National Biosafety Framework, News & Updates, Resources, and Useful Links. Each menu has a **List links** button and a dropdown arrow.
 
 ---
 
-### Edit Menu - Content Manager {#content-manager-edit-steps}
+### View Menu Links {#cm-view-links}
 
-Content Managers can edit existing menus. Here are the steps.
+1. On the menus list page, click **List links** next to any menu
+2. The menu links page shows all links in that menu
 
-::: details Authenticated?
-If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
-:::
+![Menu links list showing link names, enabled status, and operations](/images/biosafety-land/menus/menu-links-list-site-manager.png)
 
-#### What You Can Change
-
-- Menu name
-- Menu description
-- Where the menu appears
-
-#### Step 1: Open the Admin Area
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/menu-edit-content-manager-01-admin-menu.png -->
-
-1. Log in to your site
-2. Click your name at the top right
-3. Click "Content Management"
-
-#### Step 2: Go to Structure
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/menu-edit-content-manager-02-structure-menu.png -->
-
-1. Look in the left menu
-2. Find "Structure"
-3. Click "Structure"
-
-#### Step 3: Find the Menu List
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/menu-edit-content-manager-03-menus-list.png -->
-
-1. Click "Menus" in the Structure section
-2. Find the menu you want to change
-3. Look at the list of all menus
-
-#### Step 4: Click Edit
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/menu-edit-content-manager-04-edit-button.png -->
-
-1. Find your menu in the list
-2. Click the "Edit" button next to it
-3. The edit form opens
-
-#### Step 5: Make Your Changes
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/menu-edit-content-manager-05-edit-form.png -->
-
-1. Change the menu name if needed
-2. Update the description
-3. Modify any settings
-
-#### Step 6: Review Your Changes
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/menu-edit-content-manager-06-review-changes.png -->
-
-1. Check all your changes
-2. Make sure everything is correct
-3. Look for any mistakes
-
-#### Step 7: Save Your Changes
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/menu-edit-content-manager-07-save-button.png -->
-
-1. Find the "Save" button
-2. Click "Save"
-3. Your changes are saved
-
-#### Step 8: See the Updated Menu
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/menu-edit-content-manager-08-success-message.png -->
-
-1. You see a success message
-2. The menu list shows your changes
-3. Your menu is now updated
+The page shows:
+- **Menu link name** — the display text
+- **Enabled** checkbox — whether the link is active on the site
+- **Drag handles** — cross-arrow icons for reordering
+- **Operations** — Edit button + dropdown with Add child, Translate, Delete, View
 
 ---
 
-### Delete Menu - Content Manager {#content-manager-delete-steps}
+### Add a Menu Link {#cm-add-link}
 
-Content Managers can delete menus. Here are the steps.
+1. On the menus list page, click the **dropdown arrow** next to **List links** for the target menu
+2. Select **Add link** from the dropdown
 
-::: details Authenticated?
-If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
+![Operations dropdown showing Add link option](/images/biosafety-land/menus/menu-operations-dropdown-site-manager.png)
+
+3. Fill in the **Add menu link** form:
+
+![Add menu link form](/images/biosafety-land/menus/menu-add-link-form-site-manager.png)
+
+| Field | Description |
+|-------|-------------|
+| **Menu link title** | The text displayed in the navigation |
+| **Link** | The URL or page reference (supports autocomplete for internal pages) |
+| **Enabled** | Check to make the link visible on the site |
+| **Attributes** | Set target window (e.g., open in new tab) |
+| **Parent link** | Select a parent to create a nested/child link |
+| **Display settings** | Configure display options |
+| **Description** | Optional description of the link |
+
+4. Click **Save** to create the menu link
+
+::: tip
+When typing in the **Link** field, start typing the title of an internal page — the system will autocomplete matching pages.
 :::
 
-#### Before You Delete
+---
 
-- Make sure no pages use this menu
-- Check if the menu appears on your website
-- Save a backup if you might need it later
+### Edit a Menu Link {#cm-edit-link}
 
-#### Step 1: Open the Admin Area
+1. Navigate to **Structure** → **Menus** and click **List links** for the target menu
+2. Click **Edit** next to the link you want to change
 
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/menu-delete-content-manager-01-admin-menu.png -->
+![Link operations dropdown showing Edit, Add child, Translate, Delete, View](/images/biosafety-land/menus/menu-link-operations-dropdown-site-manager.png)
 
-1. Log in to your site
-2. Click your name at the top right
-3. Click "Content Management"
+3. Modify the link title, URL, enabled state, parent link, or other settings
+4. Click **Save** to apply your changes
 
-#### Step 2: Go to Structure
+---
 
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/menu-delete-content-manager-02-structure-menu.png -->
+### Delete a Menu Link {#cm-delete-link}
 
-1. Look in the left menu
-2. Find "Structure"
-3. Click "Structure"
+1. Navigate to **Structure** → **Menus** and click **List links** for the target menu
+2. In the **Operations** dropdown next to the link, click **Delete**
+3. Confirm the deletion when prompted
 
-#### Step 3: Find the Menu List
+::: warning
+Deleting a menu link is permanent. If the link has child links, consider reassigning or deleting them first.
+:::
 
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/menu-delete-content-manager-03-menus-list.png -->
+---
 
-1. Click "Menus" in the Structure section
-2. Find the menu you want to delete
-3. Look at the list of all menus
+### Add a Child Link {#cm-add-child}
 
-#### Step 4: Click Delete
+1. Navigate to **Structure** → **Menus** and click **List links** for the target menu
+2. In the **Operations** dropdown next to the parent link, click **Add child**
+3. Fill in the menu link form (same fields as [Add a Menu Link](#cm-add-link))
+4. The **Parent link** field will be pre-set to the link you selected
+5. Click **Save**
 
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/menu-delete-content-manager-04-delete-button.png -->
+---
 
-1. Find your menu in the list
-2. Click the "Delete" button next to it
-3. A warning appears
+### Reorder Menu Links {#cm-reorder}
 
-#### Step 5: Confirm Deletion
+1. Navigate to **Structure** → **Menus** and click **List links** for the target menu
+2. Use the **drag handles** (cross-arrow icon) on the left side of each link to drag it to a new position
+3. To nest a link under another, drag it slightly to the right beneath the intended parent
+4. Click **Save** at the bottom of the page to apply the new order
 
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/menu-delete-content-manager-05-confirm-delete.png -->
+::: tip
+Reordering changes are not saved until you click **Save**. If you navigate away without saving, your changes will be lost.
+:::
 
-1. Read the warning message
-2. Make sure you want to delete
-3. Click "Delete" to confirm
+---
 
-#### Step 6: See Deletion Success
+### Translate a Menu Link {#cm-translate}
 
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/menu-delete-content-manager-06-success-message.png -->
-
-1. You see a success message
-2. The menu is gone from the list
-3. The menu is permanently deleted
+1. Navigate to **Structure** → **Menus** and click **List links** for the target menu
+2. In the **Operations** dropdown next to the link, click **Translate**
+3. Select the target language and provide the translated title and link
+4. Click **Save**

@@ -4,13 +4,16 @@ outline: false
 
 # Files
 
-This guide shows you how to manage files in Biosafety Land. It covers two user roles.
+This guide shows you how to manage files in Biosafety Land.
+
+::: info Site Manager Only
+File management is available **only to Site Managers**. Contributors and Content Managers do not have access to the Files tab.
+:::
 
 ## Table of Contents
 
 - [Overview](#overview)
-- [Content Manager Role](#content-manager-role)
-  - [Add](#add-file-content-manager), [Edit](#edit-file-content-manager), [Delete](#delete-file-content-manager)
+- [Content Manager Role](#content-manager-role) — Access not available
 - [Site Manager Role](#site-manager-role)
   - [Add](#add-file-site-manager), [Edit](#edit-file-site-manager), [Delete](#delete-file-site-manager)
 - [Role Comparison](#role-comparison)
@@ -18,21 +21,24 @@ This guide shows you how to manage files in Biosafety Land. It covers two user r
 
 ## Overview
 
-Content Managers and Site Managers can manage files in Biosafety Land. Files are documents that users can download. This guide shows you how to manage files step by step.
+Site Managers can manage files in Biosafety Land. Files are documents that users can download. This guide shows you how to manage files step by step.
 
 ### What You Need
 
-- A user account (Content Manager or Site Manager role)
+- A user account with the **Site Manager** role
 - Access to the site at: https://e2e.bsl.staging.cbd.int/en
 - Your login email and password
 - Files ready to upload
 
-### Two User Roles with File Access
+### File Access by Role
 
-1. **Content Manager** - Can add and manage files
-2. **Site Manager** - Can add files and manage the whole site
+| Role | File Access |
+|------|-------------|
+| Contributor | ❌ No access |
+| Content Manager | ❌ No access |
+| Site Manager | ✅ Full access |
 
-**Note:** Contributors cannot manage files. Only Content Managers and Site Managers have file access.
+**Note:** Only Site Managers can access **Publishing → Files**. Other roles receive an "Access Denied" page.
 
 ### Supported File Types
 

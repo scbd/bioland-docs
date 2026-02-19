@@ -1008,9 +1008,9 @@ This table shows what each role can do when working with media.
 | Advanced settings | ❌ | ❌ | ✅ |
 | Permissions | ❌ | ❌ | ✅ |
 | **Editing Media** |
-| Edit own media | ❌ | ✅ | ✅ |
+| Edit own media | ✅ | ✅ | ✅ |
 | Edit all media | ❌ | ✅ | ✅ |
-| Update basic fields | ❌ | ✅ | ✅ |
+| Update basic fields | ✅ | ✅ | ✅ |
 | Update tags | ❌ | ✅ | ✅ |
 | Change publish status | ❌ | ✅ | ✅ |
 | Replace file | ❌ | ✅ | ✅ |
@@ -1020,20 +1020,20 @@ This table shows what each role can do when working with media.
 | Update permissions | ❌ | ❌ | ✅ |
 | View revision history | ❌ | ✅ | ✅ |
 | **Deleting Media** |
-| Delete own media | ❌ | ✅ | ✅ |
+| Delete own media | ✅ | ✅ | ✅ |
 | Delete all media | ❌ | ✅ | ✅ |
 | Check usage before delete | ❌ | ✅ | ✅ |
 | View who created media | ❌ | ✅ | ✅ |
-| See deletion warnings | ❌ | ✅ | ✅ |
+| See deletion warnings | ✅ | ✅ | ✅ |
 | Notify team | ❌ | ✅ | ✅ |
 | Back up before delete | ❌ | ❌ | ✅ |
 | Review permissions | ❌ | ❌ | ✅ |
 | Check all dependencies | ❌ | ❌ | ✅ |
 | Monitor after deletion | ❌ | ❌ | ✅ |
 | **Translating Media** |
-| Translate own media | ❌ | ✅ | ✅ |
+| Translate own media | ✅ | ✅ | ✅ |
 | Translate all media | ❌ | ✅ | ✅ |
-| Translate basic fields | ❌ | ✅ | ✅ |
+| Translate basic fields | ✅ | ✅ | ✅ |
 | Translate tags | ❌ | ✅ | ✅ |
 | Set publish status | ❌ | ✅ | ✅ |
 | Language-specific files | ❌ | ✅ | ✅ |
@@ -1049,9 +1049,9 @@ This table shows what each role can do when working with media.
 **Adding Media:**
 
 **Contributor:**
-- Basic media upload only
+- Basic media upload
 - Simple name and description
-- No Edit/Delete/Translate after upload
+- Can edit/delete/translate own media only
 - Fastest process (8 steps)
 
 **Content Manager:**
@@ -1069,8 +1069,10 @@ This table shows what each role can do when working with media.
 **Editing Media:**
 
 **Contributor:**
-- ❌ Cannot edit media
-- Contact Content Manager or Site Manager
+- Can edit own media only
+- Basic field updates
+- No file replacement
+- Quick process (7 steps)
 
 **Content Manager:**
 - Can edit all media
@@ -1087,8 +1089,10 @@ This table shows what each role can do when working with media.
 **Deleting Media:**
 
 **Contributor:**
-- ❌ Cannot delete media
-- Contact Content Manager or Site Manager
+- Can delete own media only
+- Simple confirmation
+- No usage checking
+- Quick process (6 steps)
 
 **Content Manager:**
 - Can delete all media
@@ -1106,8 +1110,9 @@ This table shows what each role can do when working with media.
 **Translating Media:**
 
 **Contributor:**
-- ❌ Cannot translate media
-- Contact Content Manager or Site Manager
+- Can translate own media only
+- Basic field translation
+- Simple process (9 steps)
 
 **Content Manager:**
 - Can translate all media
@@ -1177,12 +1182,6 @@ This table shows what each role can do when working with media.
 - Cannot be undone - be careful
 - Double-check before confirming
 
-**When Cloning:**
-- Always update the name
-- Make clones unique
-- Note it's a copy
-- Test the clone works
-
 **When Translating:**
 - Translate all fields accurately
 - Keep same meaning
@@ -1229,13 +1228,6 @@ This table shows what each role can do when working with media.
 - Update content using this media
 - Test affected pages after deletion
 - Document what was deleted
-
-**When Cloning:**
-- Use clear naming for clones
-- Update tags to reflect purpose
-- Set correct publish status
-- Document why media was cloned
-- Test clone before using it
 
 **When Translating:**
 - Translate all text fields
@@ -1286,14 +1278,6 @@ This table shows what each role can do when working with media.
 - Monitor site after deletion
 - Update affected content immediately
 - Document deletion in system logs
-
-**When Cloning:**
-- Version control for clones
-- Set appropriate permissions
-- Configure workflow correctly
-- Update revision logs
-- Document clone purpose
-- Review all advanced settings
 
 **When Translating:**
 - Review language configuration
@@ -1405,13 +1389,6 @@ This table shows what each role can do when working with media.
 - Don't forget it's permanent
 - Don't delete without a backup plan
 
-**When Cloning:**
-- Don't keep same name as original
-- Don't clone without purpose
-- Don't forget to update fields
-- Don't create excessive clones
-- Don't skip testing cloned media
-
 **When Translating:**
 - Don't use machine translation only
 - Don't skip fields
@@ -1430,7 +1407,6 @@ This table shows what each role can do when working with media.
 - Review usage before deleting
 - Back up important media
 - Communicate with your team
-- Update clones appropriately
 - Keep library organized
 - Translate accurately
 - Review translations with experts
@@ -1494,44 +1470,6 @@ Before deleting media:
 - [ ] Monitor for broken links
 
 **Remember:** Deletion is permanent. There is no undo.
-
-### When to Clone vs. Create New
-
-**Clone when:**
-- You need a similar media item
-- You want to keep same settings
-- Creating variations (sizes, crops)
-- Making translated versions
-- Testing changes safely
-- Building on existing work
-
-**Create New when:**
-- Media is completely different
-- You want fresh metadata
-- Starting from scratch
-- Different file type needed
-- No relationship to existing
-- Cleaner organization desired
-
-**Best Practice:** Clone saves time. But don't clone everything. Keep library organized.
-
-### Common Cloning Mistakes to Avoid
-
-**Don't:**
-- Keep original name on clone
-- Clone without updating fields
-- Create too many clones
-- Forget to update description
-- Skip testing the clone
-- Clone everything unnecessarily
-
-**Do:**
-- Use clear naming for clones
-- Update all relevant fields
-- Clean up unused clones
-- Document clone purpose
-- Test before using
-- Only clone when beneficial
 
 ---
 
@@ -1643,41 +1581,6 @@ Before deleting media:
 10. Confirm deletion
 11. Verify and monitor
 
-### Cloning Media - Quick Steps
-
-**Contributor (8 steps):**
-1. Log in
-2. Go to Media list
-3. Find media to clone
-4. Click Clone
-5. Update the name
-6. Update description
-7. Save the clone
-8. Confirm success
-
-**Content Manager (9 steps):**
-1. Log in
-2. Go to Media list
-3. Find media to clone
-4. Click Clone
-5. Update the name
-6. Update details
-7. Set publishing options
-8. Save the clone
-9. Confirm success
-
-**Site Manager (10 steps):**
-1. Log in
-2. Go to Media list
-3. Find media to clone
-4. Click Clone
-5. Update the name
-6. Update details
-7. Set publishing options
-8. Configure advanced settings
-9. Save the clone
-10. Confirm success
-
 ### Translating Media - Quick Steps
 
 **Contributor (9 steps):**
@@ -1747,13 +1650,6 @@ If you have trouble:
 3. Check workflow state
 4. Contact your Site Manager
 5. Check the user guide
-
-**With Cloning:**
-1. Ensure name is unique
-2. Check available storage
-3. Verify permissions
-4. Try again if it fails
-5. Contact your Site Manager
 
 **With Translation:**
 1. Check language is enabled

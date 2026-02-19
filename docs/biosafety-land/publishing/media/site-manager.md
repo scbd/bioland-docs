@@ -107,7 +107,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 3. Your media is now in the system
 4. It's ready to use across the site
 
-<!-- TODO: Capture screenshot - media-add-site-manager-10-success.png -->
+![Add Media Success](/images/biosafety-land/media/media-add-site-manager-10-success.png)
 
 **That's it!** You added media as a Site Manager.
 
@@ -205,103 +205,6 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 ![Success](/images/biosafety-land/media/media-edit-site-manager-09-success.png)
 
 **That's it!** You edited media as a Site Manager.
-
----
-
-## Clone Media - Site Manager Role
-
-Site Managers can clone media with full control. Here are the steps.
-
-::: details Authenticated?
-If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
-:::
-
-### Step 2: Go to Media List
-
-1. Click on **Tools** in the toolbar
-2. Click **Publishing**
-3. Click **Media**
-
-### Step 3: Find the Media to Clone
-
-1. Look through the media list
-2. Find the media you want to copy
-3. Use advanced filters
-4. Check original details
-5. Note permissions
-
-<!-- TODO: Capture screenshot -->
-
-### Step 4: Click Clone
-
-1. Click on the media name
-2. Or find the **Clone** button
-3. Click it
-4. A new page loads with copy
-
-<!-- TODO: Capture screenshot -->
-
-### Step 5: Update the Name
-
-1. Change the media name
-2. Follow naming standards
-3. Include version if needed
-4. Keep it organized
-
-**Example:** "Report-v1" becomes "Report-v2"
-
-<!-- TODO: Capture screenshot -->
-
-### Step 6: Update Details
-
-1. Update description
-2. Change tags
-3. Update alt text
-4. Set language
-5. Update custom fields
-
-<!-- TODO: Capture screenshot -->
-
-### Step 7: Set Publishing Options
-
-1. Choose publish status
-2. Set author (defaults to you)
-3. Set creation date
-4. Add to collections
-5. Configure workflow
-
-<!-- TODO: Capture screenshot -->
-
-### Step 8: Configure Advanced Settings
-
-1. Set URL alias
-2. Update revision log
-3. Configure permissions
-4. Set workflow state
-5. Add related media
-
-<!-- TODO: Capture screenshot -->
-
-### Step 9: Save the Clone
-
-1. Review all settings
-2. Check everything is correct
-3. Click the **Save** button
-4. Wait for save to complete
-
-<!-- TODO: Capture screenshot -->
-
-### Step 10: Confirm Success
-
-1. A green message appears
-2. It says "Media cloned successfully"
-3. Clone is ready to use
-4. Original is preserved
-5. Both exist independently
-
-<!-- TODO: Capture screenshot -->
-
-**That's it!** You cloned media as a Site Manager.
 
 ---
 

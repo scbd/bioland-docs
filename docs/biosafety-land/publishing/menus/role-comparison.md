@@ -1,35 +1,32 @@
 ## Role Comparison
 
-Different roles can do different things with menus.
+### Menu Link Operations
 
-| Action | Content Manager | Site Manager |
-|--------|----------------|--------------|
-| **Add Menu** | ✅ Yes (8 steps) | ✅ Yes (9 steps) |
-| **Edit Menu** | ✅ Yes (8 steps) | ✅ Yes (9 steps) |
-| **Delete Menu** | ✅ Yes (6 steps) | ✅ Yes (7 steps) |
-| **Add Menu Items** | ✅ Yes | ✅ Yes |
-| **Reorder Menu Items** | ✅ Yes | ✅ Yes |
-| **Configure Permissions** | ❌ No | ✅ Yes |
-| **Set Visibility Rules** | ❌ No | ✅ Yes |
-| **See Advanced Settings** | ❌ No | ✅ Yes |
+| Operation | Contributor | Authenticated User | Content Manager | Site Manager |
+|-----------|:-----------:|:------------------:|:---------------:|:------------:|
+| View menus list | ❌ | ❌ | ✅ | ✅ |
+| View menu links | ❌ | ❌ | ✅ | ✅ |
+| Add menu link | ❌ | ❌ | ✅ | ✅ |
+| Edit menu link | ❌ | ❌ | ✅ | ✅ |
+| Delete menu link | ❌ | ❌ | ✅ | ✅ |
+| Add child link | ❌ | ❌ | ✅ | ✅ |
+| Reorder menu links | ❌ | ❌ | ✅ | ✅ |
+| Translate menu link | ❌ | ❌ | ✅ | ✅ |
+
+### Menu‑Level Operations
+
+| Operation | Contributor | Authenticated User | Content Manager | Site Manager |
+|-----------|:-----------:|:------------------:|:---------------:|:------------:|
+| Add new menu | ❌ | ❌ | ❌ | ❌ |
+| Edit menu settings | ❌ | ❌ | ❌ | ❌ |
+| Delete menu | ❌ | ❌ | ❌ | ❌ |
+
+::: warning Access Denied
+No role can add, edit, or delete menus themselves. The six menus (Footer, Footer Credits, National Biosafety Framework, News & Updates, Resources, Useful Links) are predefined and cannot be modified at the menu level.
+:::
 
 ### Key Differences
 
-**Content Manager:**
-- Can add, edit, and delete menus
-- Can add and arrange menu items
-- Cannot change permissions
-- Cannot set visibility rules
-- Focused on menu content
-
-**Site Manager:**
-- Can do everything Content Managers can
-- Can set menu permissions
-- Can configure visibility rules
-- Sees advanced settings
-- Has full menu control
-
-**Contributor:**
-- Cannot access menu management
-- Cannot see the menu section
-- Cannot make any menu changes
+- **Content Manager vs. Site Manager**: Identical menu management capabilities. Both can manage links within the six predefined menus.
+- **Contributor / Authenticated User**: No access to menu management. The **Structure** menu item is not available in their admin toolbar.
+- **Menu-level operations**: Not available to any role. Menus are system-defined.

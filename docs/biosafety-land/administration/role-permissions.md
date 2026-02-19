@@ -27,20 +27,20 @@ The Site Manager role has access to all administrative functions:
 - **People** - User management and permissions
 - **Reports** - Site reports and analytics
 
-### Content Manager (3 sections - Content-Focused)
+### Content Manager (5 sections - Content-Focused)
 
 <!-- SCREENSHOT NEEDED: /images/biosafety-land/menus/content-manager-admin-menu.png -->
 
-The Content Manager role has limited access to content-related functions:
+The Content Manager role has access to content-related and some administrative functions:
 
 - **Tools** - Site utilities and maintenance tools
 - **Publishing** - Content management and publishing workflows
 - **Structure** - Site structure, menus, and taxonomy
+- **Configuration** - Limited system settings
+- **Reports** - Site reports and analytics (limited scope)
 
 **Cannot access:**
-- Configuration (system settings)
 - People (user management)
-- Reports (site analytics)
 
 ### Contributor (2 sections - Basic Access)
 
@@ -64,9 +64,9 @@ The Contributor role has the most restricted access:
 | Tools | ✅ | ✅ | ✅ |
 | Publishing | ✅ | ✅ | ✅ |
 | Structure | ✅ | ✅ | ❌ |
-| Configuration | ✅ | ❌ | ❌ |
+| Configuration | ✅ | ⚠️ Limited | ❌ |
 | People | ✅ | ❌ | ❌ |
-| Reports | ✅ | ❌ | ❌ |
+| Reports | ✅ | ⚠️ Limited | ❌ |
 
 ## Understanding the Roles
 
@@ -85,7 +85,7 @@ The Contributor role has the most restricted access:
 For detailed step-by-step workflows for specific functions, see:
 
 - **[Content Management](../content-management.md)** - Complete content workflows (Add, Edit, Delete, Clone, Translate)
-- **[Media Management](../media-management.md)** - Complete media workflows (Add, Edit, Delete, Clone, Translate)
+- **[Media Management](../media-management.md)** - Complete media workflows (Add, Edit, Delete, Translate)
 - **[File Management](../file-management.md)** - Complete file workflows (Add, Edit, Delete)
 - **[Menu Management](../menu-management.md)** - Complete menu workflows (Add, Edit, Delete)
 - **[People Management](../people-management.md)** - Complete people management workflows (Add, Edit, Delete, Block, Roles) - Site Managers only

@@ -52,7 +52,6 @@ Each role guide covers these operations:
 
 - **Add Media** - Upload new images, videos, or documents
 - **Edit Media** - Update media details and metadata
-- **Clone Media** - Create copies of existing media
 - **Delete Media** - Remove media from the system
 - **Translate Media** - Add translations for other languages
 

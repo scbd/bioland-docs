@@ -12,7 +12,7 @@ The body editor (also called the WYSIWYG editor) allows you to:
 - Embed media content
 - Write structured content with proper formatting
 
-<!-- Screenshot placeholder: body-editor-01-overview.png -->
+
 
 ## Editor Toolbar
 

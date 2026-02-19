@@ -343,12 +343,16 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ![Verify Clone](/images/biosafety-land/content/content-clone-contributor-08-cloned-content.png)
 
-#### What Contributors Cannot Do
+#### What Contributors Can and Cannot Do
 
-- Cannot clone content from other authors
+**Can do:**
+- Clone any published content (own or others')
+- Clone own unpublished (draft) content
+
+**Cannot do:**
 - Cannot change clone permissions
-- Cannot clone published content (only drafts)
 - Cannot bulk clone multiple items
+- Cannot change author on cloned content
 
 ---
 

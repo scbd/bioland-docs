@@ -47,17 +47,6 @@ This page compares what each role can do when working with media.
 | Review permissions | ❌ | ❌ | ✅ |
 | Check all dependencies | ❌ | ❌ | ✅ |
 | Monitor after deletion | ❌ | ❌ | ✅ |
-| **Cloning Media** |
-| Clone own media | ✅ | ✅ | ✅ |
-| Clone all media | ✅ | ✅ | ✅ |
-| Update basic fields | ✅ | ✅ | ✅ |
-| Update tags in clone | ❌ | ✅ | ✅ |
-| Set publish status | ❌ | ✅ | ✅ |
-| Add to collections | ❌ | ✅ | ✅ |
-| Change author | ❌ | ❌ | ✅ |
-| Set URL alias | ❌ | ❌ | ✅ |
-| Configure workflow | ❌ | ❌ | ✅ |
-| Advanced settings | ❌ | ❌ | ✅ |
 | **Translating Media** |
 | Translate own media | ✅ | ✅ | ✅ |
 | Translate all media | ❌ | ✅ | ✅ |
@@ -136,26 +125,6 @@ This page compares what each role can do when working with media.
 - Permission checking
 - Backup capability
 - Most thorough (11 steps)
-
-### Cloning Media
-
-**Contributor:**
-- Can clone any media
-- Basic field updates
-- Simple naming changes
-- Quick process (8 steps)
-
-**Content Manager:**
-- Full cloning control
-- Tags and collections
-- Publishing options
-- Medium process (9 steps)
-
-**Site Manager:**
-- Complete cloning access
-- All settings available
-- Advanced configuration
-- Full process (10 steps)
 
 ### Translating Media
 

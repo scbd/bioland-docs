@@ -21,34 +21,44 @@ Check your spam/junk folder if you don't see the activation email within 24 hour
 1. Locate the activation email in your inbox
 2. Click the **activation link** in the email
 
+![Activation Email](/images/biosafety-land/authentication/account-activation-01-email-light.png)
+
+3. Set password page will open in your browser, click Login.
+
+![Set Password](/images/biosafety-land/authentication/account-activation-02-set-password.png)
+
 ### Step 2: Set Your Password
 
 1. You'll be directed to a password setup page
 2. Create a strong password following the [password requirements](/biosafety-land/authentication/password-reset#password-requirements)
 3. Confirm your password by entering it again
+
+![Confirm Password](/images/biosafety-land/authentication/account-activation-03-confirm-password.png)
+
 4. Click **Activate Account** or **Save**
+
+![Activate Account](/images/biosafety-land/authentication/account-activation-04-activate-account.png)
+
 
 ### Step 3: Complete Your Profile (Optional)
 
 After activation, you may be prompted to:
 
 - Update your display name
-- Add contact information
-- Set notification preferences
-
-### Step 4: Log In
-
-1. Navigate to the [login page](/biosafety-land/authentication/login)
-2. Enter your username/email and new password
-3. Click **Log in**
+- Change language preferences
 
 ## Activation Link Expired?
 
-Activation links expire after a set period for security. If your link has expired:
+Activation links expire after a set period for security. If your link has expired, you can set your password using the [password reset](/biosafety-land/authentication/password-reset) process:
 
-1. Contact your system administrator
-2. Request a new activation email
-3. Complete the activation process promptly
+1. Go to the [login page](/biosafety-land/authentication/login)
+2. Click **Forgot Password** (or **Reset Password**)
+3. Enter the same email address where you received the activation email
+4. Follow the instructions in the password reset email to set your password
+
+::: tip
+Use the same email address that received the original activation email — this is the email linked to your account.
+:::
 
 ## Troubleshooting
 
@@ -57,13 +67,15 @@ Activation links expire after a set period for security. If your link has expire
 - Verify your email address with your administrator
 - Check spam/junk folders
 - Ensure your inbox isn't full
-- Request the administrator to resend the activation
+- Reset password your self
+- Contact your administrator
 
 ### Activation Link Not Working?
 
 - Ensure you're clicking the complete link
 - Try copying and pasting the full URL into your browser
-- Contact your administrator for a new activation link
+- Reset password your self
+- Contact your administrator 
 
 ### Account Already Activated?
 

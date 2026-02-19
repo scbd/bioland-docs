@@ -46,9 +46,9 @@ This table shows what each role can do when adding, editing, deleting, cloning, 
 | Post-deletion cleanup | ❌ | ✅ | ✅ |
 | **Cloning Content** | | | |
 | Clone own content | ✅ | ✅ | ✅ |
-| Clone others' content | ❌ | ✅ | ✅ |
+| Clone others' content | ✅ | ✅ | ✅ |
 | Clone any content | ❌ | ✅ | ✅ |
-| Clone published content | ❌ | ✅ | ✅ |
+| Clone published content | ✅ | ✅ | ✅ |
 | Clone draft content | ✅ | ✅ | ✅ |
 | Change author on clone | ❌ | ✅ | ✅ |
 | Change content type | ❌ | ❌ | ✅ |
@@ -88,12 +88,11 @@ This table shows what each role can do when adding, editing, deleting, cloning, 
 - Can create and edit basic content
 - Can only edit their own content
 - Can only delete their own content
-- Can only clone their own content
 - **Cannot publish content directly** — content is saved as draft for review
+- Can clone any published content (own or others')
 - Limited to standard fields
 - Cannot change site structure
 - No impact analysis before deleting
-- Cannot clone published content
 - Good for regular content creators
 
 **Content Manager:**

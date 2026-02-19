@@ -55,13 +55,11 @@ For details on each content type, see [Content Types](/biosafety-land/context/co
 3. Fill all required fields
 4. Add any optional information
 
-<!-- TODO: Capture site-manager screenshot for this step (currently using content-manager image) -->
-![Fill Details](/images/biosafety-land/content/content-add-content-manager-04-news-form-top.png)
+![Fill Details](/images/biosafety-land/content/content-add-site-manager-06-fill-details.png)
 
 #### Step 6: Configure All Settings
 
-<!-- TODO: Capture site-manager screenshot for this step (currently using content-manager image) -->
-![All Settings](/images/biosafety-land/content/content-add-content-manager-06-additional-fields.png)
+![All Settings](/images/biosafety-land/content/content-add-site-manager-07-additional-fields.png)
 
 Site Managers have access to all options:
 
@@ -76,8 +74,7 @@ Site Managers have access to all options:
 
 #### Step 7: Set Advanced Options
 
-<!-- TODO: Capture site-manager screenshot for this step (currently using content-manager image) -->
-![Advanced Options](/images/biosafety-land/content/content-add-content-manager-07-publishing-options.png)
+![Advanced Options](/images/biosafety-land/content/content-add-site-manager-08-publishing-options.png)
 
 Site Managers can configure:
 
@@ -97,8 +94,7 @@ Site Managers can configure:
 3. Click your choice
 4. See the success message
 
-<!-- TODO: Capture site-manager screenshot for this step (currently using content-manager image) -->
-![Save Content](/images/biosafety-land/content/content-add-content-manager-08-save-button.png)
+![Save Content](/images/biosafety-land/content/content-add-site-manager-09-save-button.png)
 
 ---
 

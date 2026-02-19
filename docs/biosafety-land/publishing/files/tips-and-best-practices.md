@@ -1,155 +1,92 @@
 ## Tips and Best Practices
 
-### For All Roles
+::: info Site Manager Only
+The Files tab is available only to Site Managers. These tips apply to managing files through the Files tab.
+:::
 
-**Naming Files:**
-- Use clear, descriptive names
-- Include the year if relevant (e.g., "Report 2024")
-- Avoid special characters
-- Keep names short but meaningful
+### Understanding the Files Tab
 
-**File Organization:**
-- Delete old files you no longer need
-- Keep file names consistent
-- Use descriptions to help others find files
+The Files tab is a **management view** — it shows all files uploaded across the site through content and media forms. You cannot add or edit files directly from this tab.
 
-**File Security:**
-- Only upload files you have permission to share
-- Don't upload personal or sensitive information
-- Check file size before uploading
+**What you CAN do:**
+- View all files on the site
+- Filter files by name, MIME type, or status
+- See where files are used ("Used in" column)
+- Delete files that are no longer needed
 
-### Best Practices for Adding Files
-
-**Before You Upload:**
-1. Make sure you have the right file
-2. Check the file size
-3. Think of a clear name
-4. Prepare a description if needed
-
-**During Upload:**
-1. Wait for the upload to complete
-2. Don't close your browser
-3. Check for error messages
-
-**After Upload:**
-1. Verify the file appears in the list
-2. Test downloading the file
-3. Check that the name and description are correct
-
-### Best Practices for Editing Files
-
-**When to Edit:**
-- To fix a typo in the name
-- To update the description
-- To replace an outdated file
-- To add missing information
-
-**When NOT to Edit:**
-- If the file is used in published content (check first)
-- If you're not sure which version is correct
-- If someone else is working on the same file
-
-**Editing Tips:**
-1. Always check the file name before editing
-2. Add a note in the description when you replace a file
-3. Test the new file before saving
-4. Verify your changes after saving
+**What you CANNOT do from this tab:**
+- Add new files (use Content or Media forms instead)
+- Edit file names or descriptions (edit the parent content/media item instead)
+- Replace files (edit the parent content/media item instead)
 
 ### Best Practices for Deleting Files
 
 **Before You Delete:**
-1. Make sure you have the right file
-2. Check if the file is used anywhere (Site Managers)
+1. Check the **Used in** column — if it shows "1 place" or more, the file is referenced
+2. Click the usage link to see which content/media items use the file
 3. Ask your team if anyone needs this file
 4. Consider keeping old files for a while
 
 **Safety Checklist:**
 - [ ] Is this the correct file?
+- [ ] Have I checked the "Used in" column?
 - [ ] Have I checked with my team?
-- [ ] Is the file used in any content? (Site Managers)
 - [ ] Do we have a backup?
 - [ ] Am I sure we don't need this file?
 
 **When to Delete:**
-- File is outdated and not used
+- File shows "0 places" in Used in column
 - File was uploaded by mistake
-- File contains wrong information
-- You have a newer version
+- File is a temporary upload that was never used
+- You have confirmed no content references it
 
 **When NOT to Delete:**
-- File is used in published content
+- File is used in published content (Used in > 0)
 - You're not sure if others need it
 - File might be needed later
 - You haven't checked with your team
 
 ### Common Mistakes to Avoid
 
-**Uploading:**
-- ❌ Don't upload very large files without checking limits
-- ❌ Don't use unclear names like "file1.pdf"
-- ❌ Don't forget to add a description
-- ✅ Do check file size first
-- ✅ Do use clear, descriptive names
-- ✅ Do add helpful descriptions
-
-**Editing:**
-- ❌ Don't edit the wrong file
-- ❌ Don't forget to save your changes
-- ❌ Don't replace files without testing them first
-- ✅ Do verify the file name before editing
-- ✅ Do save after making changes
-- ✅ Do test new files before saving
-
 **Deleting:**
-- ❌ Don't delete files without checking usage
-- ❌ Don't delete files used in published content
+- ❌ Don't delete files without checking the "Used in" column
+- ❌ Don't delete files that show 1+ places of usage
 - ❌ Don't delete without asking your team
-- ✅ Do check if file is used (Site Managers)
+- ✅ Do check "Used in" count before every delete
+- ✅ Do click the usage link to verify references
 - ✅ Do ask your team first
-- ✅ Do verify before confirming
 
-### Site Manager Special Considerations
+### File Management Tips
 
-**Advanced Settings:**
-- Set URL aliases for files that need custom addresses
-- Use authoring information to track file ownership
-- Enable revisions for important files
+**Monitoring:**
+- Use the **Filename** filter to find specific files quickly
+- Use the **MIME type** filter to find all images, PDFs, etc.
+- Sort by **Changed date** to find recent uploads
+- Sort by **Size** to find large files consuming storage
 
-**File Usage:**
-- Always check the "Used in" section before deleting
-- Update content that links to deleted files
-- Communicate with content creators about file changes
-
-**File Management:**
-- Regular cleanup keeps the system running smoothly
-- Monitor file uploads for size and type compliance
-- Help Content Managers with file organization
+**Cleanup:**
+- Regularly review files with "0 places" usage — these may be safe to delete
+- Check for "Temporary" status files — these are often incomplete uploads
+- Monitor file uploads for size compliance
 
 ### Quick Reference
 
-**Add a File:**
-1. Log in
-2. Click **Tools** > **Publishing** > **Files**
-3. Click **Add file**
-4. Choose your file
-5. Enter name and description
-6. Click **Save**
+**View Files:**
+1. Log in as Site Manager
+2. Click **Publishing** in the admin toolbar
+3. Click the **Files** tab
 
-**Edit a File:**
-1. Log in
-2. Click **Tools** > **Publishing** > **Files**
-3. Find the file
-4. Click **Edit**
-5. Make your changes
-6. Click **Save**
+**Check File Usage:**
+1. Go to the Files tab
+2. Find the file
+3. Click the number in the **Used in** column
 
 **Delete a File:**
-1. Log in
-2. Click **Tools** > **Publishing** > **Files**
-3. Find the file
-4. Click **Delete**
-5. Review the warning
-6. Click **Delete** to confirm
+1. Go to the Files tab
+2. Find the file (check "Used in" is 0 first)
+3. Click **Delete** in the Operations column
+4. Review the confirmation dialog
+5. Click **Delete** to confirm (or **Cancel** to keep)
 
 ---
 
@@ -157,10 +94,8 @@
 
 If you have trouble with file management:
 
-1. **Check your role** - Make sure you're a Content Manager or Site Manager
-2. **Check the file size** - Large files take longer to upload
-3. **Check file type** - Make sure the file type is allowed
-4. **Ask your Site Manager** - They can help with advanced issues
-5. **Check your internet** - Slow connections affect uploads
-
-**Remember:** Contributors cannot access file management. Only Content Managers and Site Managers can work with files.
+1. **Check your role** — Only Site Managers can access the Files tab
+2. **Can't find a file?** — Use the filters at the top of the Files list
+3. **Need to add a file?** — Upload it through a Content or Media form
+4. **Need to edit a file?** — Edit the parent content or media item that contains it
+5. **Accidentally deleted?** — Contact your administrator; deletions cannot be undone

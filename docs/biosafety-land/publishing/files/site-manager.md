@@ -1,10 +1,12 @@
 ## Site Manager Role
 
-Site Managers have full access to file management with additional capabilities. This section covers all file operations available to Site Managers.
+Site Managers are the **only role** with access to the Files tab. The Files tab shows all uploaded files across the site — including files uploaded through content and media.
 
-### Add File - Site Manager {#add-file-site-manager}
+::: info
+Files are uploaded through content forms and media. The Files tab does **not** have an "Add file" button. It is a management view for monitoring and deleting existing files.
+:::
 
-Site Managers can add new files to the site. Here are the steps.
+### View Files List {#view-files-site-manager}
 
 ::: details Authenticated?
 If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
@@ -12,247 +14,110 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 #### Step 1: Open the Admin Menu
 
-1. Click **Tools** in the top menu
-2. The admin menu opens
+1. Click **Publishing** in the admin toolbar
+2. The Publishing page opens
 
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-add-site-manager-02-admin-menu.png -->
+![Admin toolbar with Publishing highlighted](/images/biosafety-land/files/file-add-site-manager-02-admin-menu.png)
 
-#### Step 2: Go to Files
+#### Step 2: Go to the Files Tab
 
-1. Click **Publishing** in the admin menu
-2. Click **Files**
-3. The Files page opens
+1. Click **Files** in the tab bar (next to Content, Media, Unpublished)
+2. The Files list opens
 
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-add-site-manager-03-files-list.png -->
+![Files tab in the Publishing area](/images/biosafety-land/files/file-add-site-manager-03-files-list.png)
 
-#### Step 3: Start Adding a File
+#### Step 3: Understand the Files List
 
-1. Click **Add file**
-2. The Add File form opens
+The Files list shows all files on the site with these columns:
 
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-add-site-manager-04-add-button.png -->
+| Column | Description |
+|--------|-------------|
+| **Name** | The filename (click to download) |
+| **Entity type** | Where the file belongs (e.g., `media`, `node`) |
+| **User ID** | Who uploaded the file |
+| **Changed date** | When the file was last modified |
+| **Used in** | How many places use this file (click to see details) |
+| **Operations** | Available actions (Delete) |
+| **Size** | File size |
+| **Status** | Permanent or Temporary |
 
-#### Step 4: Choose Your File
+#### Step 4: Filter Files (Optional)
 
-1. Click **Choose File** in the File upload field
-2. Find your file on your computer
-3. Select the file
-4. Click **Open**
-5. The file name appears next to the button
+Use the filter form at the top to find specific files:
 
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-add-site-manager-05-choose-file.png -->
-
-#### Step 5: Enter File Name
-
-1. Type a name in the **Name** field
-2. Use a clear name that describes the file
-3. Example: "Annual Report 2024"
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-add-site-manager-06-name.png -->
-
-#### Step 6: Add Description (Optional)
-
-1. Scroll down to the **Description** field
-2. Type a short description if needed
-3. Example: "This report covers all activities in 2024"
-4. Skip this if you don't need a description
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-add-site-manager-07-description.png -->
-
-#### Step 7: Configure Advanced Settings (Optional)
-
-Site Managers have extra settings:
-
-1. Scroll down to see additional options
-2. Set **Authoring information** if needed
-3. Set **URL alias** for a custom web address
-4. Set **Revisions** to track changes
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-add-site-manager-08-advanced.png -->
-
-**Tip:** Skip these settings if you're not sure. The defaults work fine.
-
-#### Step 8: Save the File
-
-1. Scroll to the bottom of the form
-2. Click **Save**
-3. Wait for the page to load
-4. You see a success message
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-add-site-manager-09-save.png -->
-
-#### Step 9: Verify the File Was Added
-
-1. Look for the success message at the top
-2. You return to the Files list
-3. Your new file appears in the list
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-add-site-manager-10-confirmation.png -->
+1. **Filename** — Type part of the filename to search
+2. **MIME type** — Filter by file type (e.g., `image/jpeg`, `application/pdf`)
+3. **Status** — Filter by Permanent or Temporary
+4. Click **Filter** to apply
 
 ---
 
-### Edit File - Site Manager {#edit-file-site-manager}
+### View File Usage {#view-file-usage-site-manager}
 
-Site Managers can edit existing files. Here are the steps.
+Site Managers can see where each file is used across the site.
 
-::: details Authenticated?
-If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
+#### Step 1: Find the File
+
+1. Go to the Files list (see [View Files List](#view-files-site-manager))
+2. Find the file you want to check
+
+#### Step 2: Click the Usage Link
+
+1. In the **Used in** column, click the link (e.g., "1 place" or "2 places")
+2. The File Usage page opens
+
+![File usage information page](/images/biosafety-land/files/file-usage-site-manager.png)
+
+#### Step 3: Review Usage
+
+The usage page shows:
+
+| Column | Description |
+|--------|-------------|
+| **Entity** | The content or media item using this file |
+| **Entity type** | Type of entity (media, node, etc.) |
+| **Registering module** | The Drupal module that registered the usage |
+| **Use count** | Number of times the file is used in that entity |
+
+::: tip
+Always check file usage before deleting. Deleting a file that is used in content will break those references.
 :::
-
-#### Step 1: Open the Admin Menu
-
-1. Click **Tools** in the top menu
-2. The admin menu opens
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-edit-site-manager-02-admin-menu.png -->
-
-#### Step 2: Go to Files
-
-1. Click **Publishing** in the admin menu
-2. Click **Files**
-3. The Files page opens
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-edit-site-manager-03-files-list.png -->
-
-#### Step 3: Find the File to Edit
-
-1. Look through the list of files
-2. Find the file you want to edit
-3. You can use filters to find it faster
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-edit-site-manager-04-find.png -->
-
-#### Step 4: Open the Edit Form
-
-1. Click **Edit** next to the file name
-2. The Edit File form opens
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-edit-site-manager-05-edit-button.png -->
-
-#### Step 5: Replace the File (Optional)
-
-1. To replace the file, click **Remove**
-2. Then click **Choose File**
-3. Select a new file from your computer
-4. Click **Open**
-5. Skip this if you only want to change the name or description
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-edit-site-manager-06-replace-file.png -->
-
-#### Step 6: Update the Name
-
-1. Find the **Name** field
-2. Change the name if needed
-3. Keep it clear and descriptive
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-edit-site-manager-07-update-name.png -->
-
-#### Step 7: Update Description (Optional)
-
-1. Scroll to the **Description** field
-2. Update the description if needed
-3. Skip this if no changes are needed
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-edit-site-manager-08-description.png -->
-
-#### Step 8: Update Advanced Settings (Optional)
-
-Site Managers can adjust additional settings:
-
-1. Scroll down to see advanced options
-2. Update **Authoring information** if needed
-3. Update **URL alias** if needed
-4. Update **Revisions** settings
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-edit-site-manager-09-advanced.png -->
-
-#### Step 9: Save Your Changes
-
-1. Scroll to the bottom of the form
-2. Click **Save**
-3. Wait for the page to load
-4. You see a success message
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-edit-site-manager-10-save.png -->
-
-#### Step 10: Verify Changes
-
-1. Look for the success message at the top
-2. You return to the Files list
-3. Your changes appear in the list
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-edit-site-manager-11-confirmation.png -->
 
 ---
 
-### Delete File - Site Manager {#delete-file-site-manager}
+### Delete File {#delete-file-site-manager}
 
-Site Managers can delete files. Here are the steps.
+Site Managers can delete files from the Files tab.
 
-::: details Authenticated?
-If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
+::: warning
+Deleting a file **cannot be undone**. Always check the "Used in" column first to make sure the file is not referenced by content or media.
 :::
 
-#### Step 1: Open the Admin Menu
+#### Step 1: Find the File to Delete
 
-1. Click **Tools** in the top menu
-2. The admin menu opens
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-delete-site-manager-02-admin-menu.png -->
-
-#### Step 2: Go to Files
-
-1. Click **Publishing** in the admin menu
-2. Click **Files**
-3. The Files page opens
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-delete-site-manager-03-files-list.png -->
-
-#### Step 3: Find the File to Delete
-
-1. Look through the list of files
+1. Go to the Files list (see [View Files List](#view-files-site-manager))
 2. Find the file you want to delete
-3. You can use filters to find it faster
+3. Check the **Used in** column — if it shows "0 places", it is safe to delete
 
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-delete-site-manager-04-find.png -->
+#### Step 2: Click Delete
 
-#### Step 4: Open the Delete Confirmation
+1. Click **Delete** in the **Operations** column next to the file
+2. A confirmation dialog appears
 
-1. Click **Delete** next to the file name
-2. A confirmation page opens
+![Delete confirmation dialog](/images/biosafety-land/files/file-delete-site-manager-confirm-dialog.png)
 
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-delete-site-manager-05-delete-button.png -->
+#### Step 3: Review the Warning
 
-#### Step 5: Review the Warning
+1. Read: "Are you sure you want to delete the file [filename]?"
+2. Note: "This action cannot be undone."
+3. Make sure this is the correct file
 
-1. Read the warning message carefully
-2. Make sure this is the right file to delete
-3. **Warning:** Deleting a file cannot be undone
+#### Step 4: Confirm or Cancel
 
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-delete-site-manager-06-warning.png -->
+- Click **Delete** to permanently remove the file
+- Click **Cancel** to keep the file
 
-#### Step 6: Review Usage Information
+#### Step 5: Verify Deletion
 
-Site Managers see where the file is used:
-
-1. Check the "Used in" section
-2. This shows if content links to this file
-3. **Important:** Links will break if you delete this file
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-delete-site-manager-07-usage.png -->
-
-#### Step 7: Confirm Deletion
-
-1. Click **Delete** to confirm
-2. Wait for the page to load
-3. You see a success message
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-delete-site-manager-08-confirm.png -->
-
-#### Step 8: Verify Deletion
-
-1. Look for the success message at the top
-2. You return to the Files list
-3. The deleted file no longer appears in the list
-
-<!-- SCREENSHOT NEEDED: /images/biosafety-land/files/file-delete-site-manager-09-confirmation.png -->
+1. You return to the Files list
+2. The deleted file no longer appears in the list

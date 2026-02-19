@@ -330,7 +330,8 @@ Bad revision note examples:
 
 **Contributors:**
 
-- Only clone your own drafts
+- Can clone any published content (own or others')
+- Can also clone own drafts
 - Always change title and URL
 - Review all cloned content
 - Save as draft first

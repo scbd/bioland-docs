@@ -151,78 +151,6 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 
 ---
 
-## Clone Media - Contributor Role
-
-Contributors can clone media to create copies. Here are the steps.
-
-::: details Authenticated?
-If you have not already logged in, follow the [Login](/biosafety-land/authentication/login) instructions.
-:::
-
-### Step 2: Go to Media List
-
-1. Click on **Tools** in the toolbar
-2. Click **Publishing**
-3. Click **Media**
-
-### Step 3: Find the Media to Clone
-
-1. Look through the media list
-2. Find the media you want to copy
-3. This can be your media or others'
-
-<!-- TODO: Capture screenshot - media-clone-contributor-03-find.png -->
-
-### Step 4: Click Clone
-
-1. Click on the media name
-2. Or find the **Clone** button
-3. Click it
-4. A new page loads with the copy
-
-<!-- TODO: Capture screenshot - media-clone-contributor-04-clone.png -->
-
-### Step 5: Update the Name
-
-1. Change the media name
-2. Add "Copy" or a date
-3. Make it different from original
-4. Keep it descriptive
-
-**Example:** "Logo 2025" becomes "Logo 2025 Copy"
-
-<!-- TODO: Capture screenshot - media-clone-contributor-05-name.png -->
-
-### Step 6: Update Description
-
-1. Update the description if needed
-2. Note it's a copy
-3. Say why you cloned it
-4. Keep alt text if it's an image
-
-<!-- TODO: Capture screenshot - media-clone-contributor-06-description.png -->
-
-### Step 7: Save the Clone
-
-1. Review the information
-2. Click the **Save** button
-3. Wait for the save to complete
-
-<!-- TODO: Capture screenshot - media-clone-contributor-07-save.png -->
-
-### Step 8: Confirm Success
-
-1. A green message appears
-2. It says "Media cloned successfully"
-3. You now have two copies
-4. Original is unchanged
-
-<!-- TODO: Capture screenshot - media-clone-contributor-08-success.png -->
-
-**That's it!** You cloned media as a Contributor.
-
----
-
 ## Delete Media - Contributor Role
 
 Contributors can delete media they created. Here are the steps.
@@ -270,7 +198,7 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 2. It says "Media deleted"
 3. The media is gone from the list
 
-<!-- TODO: Capture screenshot - media-delete-contributor-04-verify.png -->
+![Verify Deletion](/images/biosafety-land/media/media-delete-contributor-04-verify.png)
 
 **That's it!** You deleted media as a Contributor.
 
@@ -348,6 +276,6 @@ If you have not already logged in, follow the [Login](/biosafety-land/authentica
 3. Media now has two languages
 4. File is shared between languages
 
-<!-- TODO: Capture screenshot - media-translate-contributor-07-success.png -->
+![Translation Success](/images/biosafety-land/media/media-translate-contributor-07-success.png)
 
 **That's it!** You translated media as a Contributor.

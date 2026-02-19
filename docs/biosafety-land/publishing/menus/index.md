@@ -4,46 +4,61 @@ outline: false
 
 # Menus
 
-Menus help people move around your website. They show links to different pages. This guide shows you how to add, edit, and delete menus.
+Menus define the navigation structure of your site. This guide shows you how to manage the **links within existing menus** — adding, editing, deleting, and reordering menu links.
 
 ## Who Can Manage Menus?
 
-| Role | Can Add Menus | Can Edit Menus | Can Delete Menus |
-|------|---------------|----------------|------------------|
-| **Site Manager** | ✅ Yes | ✅ Yes | ✅ Yes |
-| **Content Manager** | ✅ Yes | ✅ Yes | ✅ Yes |
-| **Contributor** | ❌ No | ❌ No | ❌ No |
+| Role | Can Manage Menu Links | Can Add/Delete Menus |
+|------|:---------------------:|:--------------------:|
+| **Site Manager** | ✅ Yes | ❌ No |
+| **Content Manager** | ✅ Yes | ❌ No |
+| **Contributor** | ❌ No | ❌ No |
 
-**Note:** Only Site Managers and Content Managers can work with menus. Contributors cannot see or change menus.
+::: info
+Content Managers and Site Managers have **identical** menu management capabilities. No role can add or delete menus — only manage the links within existing menus.
+:::
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Content Manager Role](#content-manager-role)
-  - [Add](#content-manager-add-steps), [Edit](#content-manager-edit-steps), [Delete](#content-manager-delete-steps)
 - [Site Manager Role](#site-manager-role)
-  - [Add](#site-manager-add-steps), [Edit](#site-manager-edit-steps), [Delete](#site-manager-delete-steps)
 - [Role Comparison](#role-comparison)
 - [Tips and Best Practices](#tips-and-best-practices)
 
 ## Overview
 
-Menus organize the links on your website. You can add new menus for different parts of your site.
+Your site comes with six predefined menus:
 
-### What You Need to Know
-
-- Menus have names
-- Menus contain menu items (links)
-- You can show menus in different places
-- Menu items can link to pages or outside websites
+| Menu | Purpose |
+|------|---------|
+| **Footer** | Site information links displayed in the footer |
+| **Footer Credits** | Credit and attribution links |
+| **National Biosafety Framework** | Links related to the national biosafety framework |
+| **News & Updates** | Links to news and update sections |
+| **Resources** | Links to resource pages and documents |
+| **Useful Links** | External and internal reference links |
 
 ### What You Can Do
 
-- Add new menus
-- Edit menu names and settings
-- Delete menus you no longer need
-- Add menu items (links)
-- Organize and reorder menu items
+- **Add** new links to any menu
+- **Edit** existing link titles, URLs, and settings
+- **Delete** links that are no longer needed
+- **Reorder** links by dragging and dropping
+- **Add child links** to create sub-navigation
+- **Translate** links into other languages
+- **Enable/Disable** links without deleting them
+
+### What You Cannot Do
+
+- **Add new menus** — Access Denied for all roles
+- **Delete entire menus** — no UI available for this operation
+
+### Navigation Path
+
+Both Content Managers and Site Managers access menus the same way:
+
+**Admin toolbar** → **Structure** → **Menus**
 
 ---
 
