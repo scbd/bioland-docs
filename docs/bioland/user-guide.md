@@ -4,7 +4,13 @@ Welcome to the Bioland 2 User Guide! This comprehensive guide will help you navi
 
 ## Overview
 
-Bioland 2 is a Clearing House Mechanism (CHM) platform designed to help countries share and manage biodiversity-related information. The platform provides a user-friendly interface for managing content, searching for information, and collaborating with partners.
+Bioland 2 is an updated version of Bioland — a Drupal-based turnkey platform for a national Clearing-House Mechanism (CHM) website. It continues to be offered to the CBD Parties for free, backed by the SCBD IT team and by the CHM Helpdesk.
+
+Apart from the technical update of the platform, the focus of Bioland 2 is on better visual experience, much stronger integration with central CHM and external Biodiversity partners.
+
+::: tip For Bioland 1 Upgraders
+For those Parties upgrading from Bioland 1, the new interface will be a mix of familiar and new features. Content from Bioland 1 will be automatically migrated.
+:::
 
 ### Key Features
 
@@ -28,35 +34,51 @@ One of the major new features of Bioland 2.0 is an upgrade from basic static men
 
 #### Convention & Protocols Submenu
 
-This submenu allows visitors to learn more about the CBD and its protocols, connect to the convention bodies and processes and to find resources published by the parties, the secretariat and various bodies.
+This submenu collects the most essential information about the Country's relationship to the Convention on Biological Diversity. It has links to:
 
-The following menu items are available:
+- **The Convention itself** — About CBD and its protocols
+- **National Contact Points** — The Country's various National Contact Points
+- **Government Ministries and Institutes** — Populated from content within this National CHM Website
+- **Country Profiles** — On CBD and Partner websites
+- **CBD Bodies** — Links to the key entities that produce key decisions and guidance
+- **Guidance & Decisions** — Allows navigation into decisions and guidance produced by the bodies
+- **CBD Protocols** — Links to the protocols and their respective clearing-house sites
 
-- **About CBD** - A page managed by the Content Manager, with relevant information about the CBD in the context of the National government
-- **CBD Bodies** - Links to the key entities that produce key decisions and guidance
-- **Guidance & Decisions** - Allows navigation into decisions and guidance produced by the bodies
-- **CBD Protocols** - Links to the protocols and their respective clearing-house sites
+Some of these links were previously only in the footer; they are now also promoted prominently in the mega-menu to ensure discovery.
 
-#### Additional Mega-menu Sections
+The content of the "Government Ministries and Institutes" section comes from the content populated within this National CHM Website (Bioland 2 instance). For those upgrading from Bioland 1, the content will be automatically migrated. Only several entries are displayed; the full list can be accessed by clicking **"View more"**.
 
-The remaining mega-menu sections provide access to:
+#### Biodiversity Facts Submenu
 
-- **Biodiversity Facts**: Scientific information and biodiversity data
-- **Implementation**: National action plans, reports, and projects
-- **Cooperation**: Partnership and collaboration opportunities
-- **News & Updates**: Latest news and events
-- **Resources**: Learning materials, documents, and publications
+The "Biodiversity Facts" submenu focuses on baseline facts about the country, including ecosystems, protected areas, and biodiversity data available on the partners' sites. The entries in the Ecosystems and Protected Areas sections come from the entered or migrated content on the site, and **"View more"** links can be followed for the full lists. Other content can be edited via the menu administration interface.
+
+#### Implementation Submenu
+
+The "Implementation" submenu is all about the current progress. There is information from the National Report 6, imported via the new interoperability mechanisms. The central part is a couple of projects and a link to the full list. Finally, there are links to the Country's various types of information on the Biosafety Clearing-House Mechanism portal.
+
+#### Cooperation Submenu
+
+The "Cooperation" submenu contains the latest updates on the discussion forums for this site, as well as links to the Technical & Scientific Cooperation portal, with links directly to the Opportunities, Assistance, and the full providers list.
+
+#### News & Updates Submenu
+
+The "News & Updates" submenu shows the latest News, Events (including Meetings), and Media (Photos, Videos). While News and Events are already very prominent on the home page, this menu is available across the whole website, serving as a useful quick-access view of the latest information. Additionally, the menu provides direct links to dedicated pages of the content.
+
+#### Resources Submenu
+
+The final submenu "Resources" pulls the latest entered or migrated reports, provides links to Capacity-Building information and framework, various available E-Learning material on the site, and a small section of internal and external links.
 
 ### Header Elements
 
-The header section of your site contains several important elements:
+Above the mega-menu, there is a header. Apart from the static elements of Country name, logo, and CHM Network link, it contains the Language Switch bar and the custom site search.
 
 ![Header Elements](/images/bioland/bl2-01-image-3.png)
 
-- **Site Logo**: Your organization's logo and branding
+- **Country Name & Site Logo**: Your country name and organization's branding
+- **CHM Network Link**: Direct link to the CHM Network
 - **Main Menu**: Primary navigation with mega-menu dropdowns
-- **Search**: Global search functionality
-- **Language Selector**: Switch between available languages (6 UN languages supported)
+- **Custom Site Search**: Allows searching both the content created locally and that imported from the Secretariat via the interoperability protocols. It also allows selecting a specific content type once on the search results page. A number of links from the menu and page modules use the search functionality under the covers to list the items.
+- **Language Switch Bar**: Switch between available languages. The website supports interface and content creation in all 6 Official UN languages. A content item preserves the equivalence between translations and will show the content in the chosen language, with a fallback to English when the translation is missing. An individual National CHM Portal can choose which languages to show content in, from the official 6.
 - **User Menu**: Login/logout and user account options
 
 ### Latest News and Updates Section
@@ -67,7 +89,7 @@ The first major content section on the home page is "Latest News and Updates". I
 
 **Ten entries** are displayed, though only a couple can fit on the screen. The rest can be seen by:
 - Using a dot pager at the bottom of the section
-- Using visible navigation arrows on the right and left
+- Using visible navigation arrows on the right and — once used — on the left
 - Dragging on the entries in the carousel
 
 #### Entry Information Display
@@ -92,6 +114,8 @@ To see more than 10 entries, the link **"View more news and Updates"** goes to a
 ## Knowledge Modules
 
 Below the news section, there is a series of modules organized in 3 columns. They provide information relevant to the country and useful links to partners or deeper within the site.
+
+![Knowledge Modules - Partner Modules](/images/bioland/bl2-01-image-6.png)
 
 ### Partner Modules
 
@@ -134,6 +158,8 @@ The Group on Earth Observations Biodiversity Observation Network (GEO BON) provi
 ---
 
 ### CBD Modules
+
+![CBD Modules and Site Modules](/images/bioland/bl2-01-image-7.png)
 
 #### Technical & Scientific Cooperation (TSC)
 
@@ -242,7 +268,37 @@ For the keywords search, all entered keywords must be present in the found docum
 
 ### Searching Local Site
 
-The local site search allows you to filter by content type to narrow down your results.
+The local site search supports both a **Free Text** field and **Type** filtering.
+
+![Local Site Type Filtering](/images/bioland/bl2-02-002.png)
+
+For Type filtering, as it is a standard list box, multiple Types can be selected individually or as a range; they can also be deselected.
+
+Free Text search and Type filtering can be both applied at the same time. The result count in the top-right corner will show the final count of matches.
+
+![Combined Free Text and Type Search Results](/images/bioland/bl2-02-003.png)
+
+::: tip Result Counts
+Note that the counts next to types do not represent the final number when Free Text search is also used. Those are the original numbers of local content items for the respective categories.
+:::
+
+### Searching Secretariat Content
+
+![Secretariat Search](/images/bioland/bl2-02-004.png)
+
+For the secretariat, only a simpler Full Text search is available. Make sure to use the pager at the bottom, as the number of matching records is often quite large.
+
+![Secretariat Search - No Results](/images/bioland/bl2-02-005.png)
+
+If the search matches no records, the listing will be empty with no pager or matching counts.
+
+### Category Search
+
+Note that because the listings of entries is powered by the search behind the scenes, the page may look very similar but not show the Type filter. That's because the records all come from a single type.
+
+![Category Listing Powered by Search](/images/bioland/bl2-02-006.png)
+
+If you need to view several types of content, just go to the advanced search. It will have the matching content type in the list, as well as all the other ones.
 
 ## Managing Content
 
@@ -278,9 +334,11 @@ If you are logged in with appropriate permissions, you can access the Publishing
 
 ![Publishing Menu - Admin View](/images/bioland/bl2-03-001.png)
 
-The Content Management screen displays all your content items with options to filter, sort, and manage them.
+The Content Management screen displays all published content. Initially it shows content in the site's default language (usually English) and hides translated entries. This can be changed in the filter settings above the content listing.
 
 ![Content Management Screen](/images/bioland/bl2-03-007.png)
+
+Please note that this screen shows only content that has already been published and is seen by the general public on the website. Content that is currently unpublished is on a different **Unpublished** tab.
 
 #### Using the Language Filter
 
@@ -305,12 +363,26 @@ This view helps you:
 
 #### Content Types You Can Create
 
-- **News**: Announcements and updates
-- **Events**: Upcoming meetings, workshops, and activities
-- **Learning Resources**: Educational materials and guides
-- **Protected Areas**: Information about conservation sites
-- **Species**: Biodiversity data
-- **Documents**: Publications and reports
+Bioland supports structured content. This means that instead of a single blob of text, different types allow entering information in specialized formats and displaying them appropriately. The easiest example is the **Events** content type that allows entering dates for the start and end of the event.
+
+Most of the fields are shared between content types, so the interface will be very familiar for any content type once one or two entries are created.
+
+| Content Type | Explanation |
+|-------------|-------------|
+| **Basic Page** | Simple pages that can be linked from the menu for general information about any topic |
+| **National Target** | Not in current use; instead use Central CHM to register the targets |
+| **Biodiversity Data** | Descriptions of sources of Biodiversity Data. Entries are automatically linked from the Biodiversity Facts submenu of the main menu |
+| **Document** | Good for including complex documents produced somewhere else (PDFs, etc.). Document listing is linked from the main home page, under the Implementation module |
+| **Ecosystem** | One of the common Biodiversity Facts worth presenting on a national CHM website. Entries are automatically linked from the Biodiversity Facts submenu |
+| **Event** | One of the most common types. Events show up on the home page, in menus, on their own summary page, and in search |
+| **Image or Video** | While images and remote videos can be attached to other types, this type presents them in full focus. Entries are automatically linked from the News & Updates submenu |
+| **Government Ministry or Institute** | A unified list of organizations working on biodiversity in a country. Entries show up under the Convention & Protocols submenu |
+| **Learning Resource** | Tracks learning resources. One is shown on the home page in a dedicated section. Use **Promotion options** > **Promoted to front page** to control which one. All entries are available on the search page |
+| **News** | Like Events, very common and shows up in multiple locations |
+| **Project** | Projects benefit from being collected in one place for a quick review of biodiversity-related work. Creating English-language summaries for projects in other languages significantly increases discoverability in search engines |
+| **Protected Area** | Just like Ecosystems, useful to have listed on the site. Entries are automatically linked from the Biodiversity Facts submenu |
+| **Related Website** | A more general content type for linking to other biodiversity-related sites that don't fall into a specific category above |
+| **Other** | A very general content type, mostly for legacy reasons. Avoid using it unless none of the other types are appropriate |
 
 #### Creating New Content
 
@@ -323,21 +395,48 @@ This view helps you:
 
 ![Site Content Selection](/images/bioland/bl2-03-005.png)
 
-4. Fill in the required fields:
-   - **Title**: A clear, descriptive title
-   - **Body**: The main content
-   - **Category/Tags**: For organization and searchability
-   - **Images**: Visual content to enhance your article
+::: tip Direct URL Bookmark
+For those who enter content frequently, bookmarking a direct URL may be useful. As it represents the form entry point, it does not change. Normally, it would be `https://sitename/en/node/add/content` (with the address of your own site).
+:::
+
+4. Fill in the common fields:
+
+**Common Fields (present for all content types):**
+
+| Field | Required | Explanation |
+|-------|----------|-------------|
+| **Content Type** | Yes | Chooses what content type is being entered. Depending on the value, additional fields may appear on the screen |
+| **Title** | Yes | Shows up everywhere the item is mentioned. Should give a very concise summary. Plain text only, cannot be formatted |
+| **Body** | No | Comprehensive description of the item, supports complex formatting. May not show up completely in some displays, but always shown in full on the content item's own page |
+| **Attachments** | No | Allows adding images, remote videos, and linked documents to the content item |
+| **Tags: GBF Targets** | No | Select one or more Global Biodiversity Framework targets. Mini search included. Full target list at: [cbd.int/gbf/targets](https://www.cbd.int/gbf/targets) |
+| **Tags: Thematic Areas** | No | Select a set of relevant thematic areas |
+| **Tags: Countries and Regions** | No | Select relevant countries — especially useful for transboundary and regional news and events |
+| **Tags: SDG** | No | Select relevant Sustainable Development Goals. Full list at: [sdgs.un.org/goals](https://sdgs.un.org/goals) |
+
+**Specialized Fields (available for specific content types):**
+
+| Field | Content Types | Explanation |
+|-------|--------------|-------------|
+| **URL and Link text** | Biodiversity Data, Document, Event, Government Ministry or Institute, Learning Resource, Project, Related Website | For material on external sites, provides a summary and link. Multiple links can be provided |
+| **Published Date** | Document, News | A single date indicating when the document was originally created (not when published on the website) |
+| **Start and End Dates** | Event | A date range including time, allowing display of content with a specified duration. The time component is required (can be 0:00 AM if time is not important) |
 
 5. Set the publication status using the **Published** checkbox:
 
 ![Published Checkbox](/images/bioland/bl2-03-006.png)
 
-::: tip Draft Mode
-If you uncheck the "Published" box, your content will be saved as a draft and won't be visible to public users until published.
+::: tip Publishing Workflow
+The **Published** checkbox is part of the publishing workflow. If a content item is not published, it will not show up on the public website view. This allows content to be reviewed or created as a draft and updated several times before publishing. A published item can also be unpublished and returned to the internal state. This checkbox is not available to the **Contributor** role, ensuring their content will be reviewed by a higher role before publication.
 :::
 
 6. Save your content
+
+#### Managing Content Items
+
+Once an item has been created, it appears in the listing on the Content Management screen. From there, the item can be edited, translated, deleted, or even cloned. If the item has not been published, it will be available from the **Unpublished** tab instead.
+
+Similar options are available for logged-in users with appropriate permissions when viewing the item's page itself. For logged-in users, an unpublished content item will also have its page available to review the current draft's presentation. That page remains unavailable to public users — they will receive an error if they try to visit the page's URL.
 
 #### Content Item Tabs
 
@@ -365,18 +464,17 @@ Managing users is a functionality only available to users with the role of **Sit
 
 ### User Roles
 
-Bioland 2 supports several user roles:
+Bioland 2 supports several user roles. While the interface presents roles as a multi-choice selection, the higher-level role includes functionalities of all lower-level roles:
 
 | Role | Permissions |
 |------|-------------|
-| **Site Manager** | Full access to all features, settings, and user management |
-| **Content Manager** | Can create, edit, and publish content; can manage menus |
-| **Editor** | Can create, edit, and publish content |
-| **Contributor** | Can create content but cannot manage menus or publish directly |
-| **Viewer** | Can only view content (for restricted areas) |
+| **Site Manager** | Highest-level role — can manage users, advanced site functions, and all features below |
+| **Content Manager** | Can create content for the site, manage menus, edit and publish content |
+| **Contributor** | Can create content for review but cannot publish it directly or manage menus |
+| **Authenticated User** | Compulsory for all users — basic site access |
 
 ::: tip Role Permissions
-Menu editing is available to users with **Content Manager** role and above. It is not available to the Contributor role.
+Menu editing is available to users with **Content Manager** role and above. It is not available to the Contributor role. The Contributor role ensures content will be reviewed by a higher role before publication.
 :::
 
 ### Accessing User Management Interface
@@ -394,13 +492,21 @@ The user management screen is part of the administration interface. There are th
    
    When logged in with Site Manager permissions, look for the Quick Admin menu at the top of the page and select **People**.
 
-   <!-- SCREENSHOT NEEDED: /images/bioland/bl2-04-000.png -->
+   ![Quick Admin Menu - People Entry](/images/bioland/bl2-04-000.png)
 
 3. **Via the Administration menu:**
    
    From the full Administration interface, navigate to the People section.
 
-   <!-- SCREENSHOT NEEDED: /images/bioland/bl2-04-001.png -->
+   ![Administration Menu - People Entry](/images/bioland/bl2-04-001.png)
+
+If these options do not appear, the logged-in account does not have the appropriate permissions.
+
+::: info Admin Menu Toggle
+Sometimes the Admin Interface menu does not show up at all. This may happen if it was collapsed with the **Manage** toggle. Pressing on the toggle again will show the menu.
+
+![Admin Menu Manage Toggle](/images/bioland/bl2-04-002.png)
+:::
 
 ### The People Management Screen
 
@@ -411,7 +517,7 @@ The People management screen displays a list of all users on your site with thei
 - Member since date
 - Last access date
 
-<!-- SCREENSHOT NEEDED: /images/bioland/bl2-04-002.png -->
+![People Management Screen](/images/bioland/bl2-01-image-8.png)
 
 You can filter and sort the list to find specific users.
 
@@ -422,46 +528,56 @@ There are two ways users can be added to the system:
 #### Method 1: Site Manager Creates User
 
 1. Access the User Management interface using one of the methods above
-2. Click the **Add user** button
+2. Click the **Add user** button (there is also a direct link from the Admin menu)
 
-   <!-- SCREENSHOT NEEDED: /images/bioland/bl2-04-003.png -->
+   ![Add User Button](/images/bioland/bl2-04-003.png)
 
 3. Fill in the Create new account form:
 
-   <!-- SCREENSHOT NEEDED: /images/bioland/bl2-04-004.png -->
+   ![Create New Account Form](/images/bioland/bl2-01-image-9.png)
 
-   - **Email address**: The user's email (required)
-   - **Username**: A unique identifier for the user
-   - **Password**: Set a password or use the system invitation
-   - **Status**: Set to Active to allow immediate access
-   - **Roles**: Select the appropriate role(s) for this user
-   - **Notify user**: Choose whether to send a welcome email
+   | Field | Required | Explanation |
+   |-------|----------|-------------|
+   | **Email address** | Yes | Required for password reset and various notifications |
+   | **Username** | Yes | The name used for login |
+   | **Password** | Yes | The initial password; however, there is a way for the user to set their own on first login |
+   | **Status** | Yes (Blocked or Active) | Blocked users cannot log in — only Active ones can |
+   | **Roles** | No (multi-choice) | Higher-level role includes functionalities of all lower-level roles. **Site Manager** is the highest; **Content Manager** can create content and manage menus; **Contributor** can create content for review but cannot publish directly |
+   | **Notify user of new account** | No (checkbox) | If checked, the new user receives an email with a password-reset link. If unchecked, they need to be told their information separately |
+   | **Picture** | No | User profile picture |
+   | **Site language** | Yes (drop-down) | Admin interface language. English is a useful default, especially while learning the interface |
+   | **Local setting** | Yes (drop-down) | Defaults to UTC but can be set to a local time zone. Affects times and dates displayed on the admin interface |
 
-4. Save the user
+4. Click **Create new account** to save. This returns the Site Manager to the User Management screen. If "Notify user of new account" was selected, the new user receives the email.
 
 #### Method 2: Self-Registration (User Requests Access)
 
 When self-registration is enabled, users can request access themselves:
 
-1. The user visits the site and clicks **Create new account**
-2. They fill in their details and submit the registration
-3. The new user is created with a **Blocked** status
+1. The user clicks the **Login** button from the main menu bar and then selects the **Create new account** tab
 
-   <!-- SCREENSHOT NEEDED: /images/bioland/bl2-04-005.png -->
+   ![Login - Create New Account Tab](/images/bioland/bl2-04-004.png)
+2. They fill in the email address and username fields. A profile picture can be uploaded but is optional. At this point, no password is chosen
+3. Once the **Create new account** button is clicked, the user is returned to the home page. Their account is not ready yet
+4. The user receives an email notifying them of their request and that it is pending admin approval
+5. CHM Helpdesk also receives a notification email as part of anti-spam monitoring
 
-4. A Site Manager must then review and approve the account
+   ![Self-Registration Form](/images/bioland/bl2-04-005.png)
+
+6. A Site Manager must then review and approve the account
 
 ### Approving Self-Registered Users
 
-When a user self-registers, their account starts in **Blocked** status. To approve them:
+When a user self-registers, their account starts in **Blocked** status, preventing them from being able to log in. To approve them:
 
 1. Navigate to the People management screen
-2. Find the user (they will show as "Blocked")
+2. Find the user (they will show as "Blocked"). If there are many accounts in the list, use the **Status** filter to review only blocked accounts. New accounts will also show "Last access" as "never"
 3. Click the **Edit** button next to the user
 
-   <!-- SCREENSHOT NEEDED: /images/bioland/bl2-04-006.png -->
+   ![User Management - Edit Blocked User](/images/bioland/bl2-04-006.png)
 
-4. On the edit screen:
+4. On the edit screen (nearly identical to the new user creation form):
+   - You **do not need** to create a password or choose Notify options — both are forced by the self-registration workflow
    - Review and edit the user's name if needed
    - Verify the email address
    - **Select the correct role(s)** for this user
@@ -527,6 +643,8 @@ Please note that while it is technically possible to place a menu link under ano
 ![Menu Settings - Parent Link](/images/bioland/menu-settings---parent-link.png)
 
 Similarly, when the menu has several submenus, the item needs to be added at the level of the submenu. While additional submenus are allowed, care needs to be taken to avoid visual overflow of the content.
+
+![Menu Submenu Level Selection](/images/bioland/menu-parent-link.png)
 
 Use Weight field or main menu admin interface to control placement of the new menu item relative to the existing one.
 
@@ -609,7 +727,9 @@ There are 3 ways to see the translations of an item:
 
 #### 1. Using the Content Management Interface Language Filter
 
-In the Content Management interface, switch to a specific language or to all languages using the Filter's Language drop-down. This allows you to:
+In the Content Management interface, switch to a specific language or to all languages using the Filter's Language drop-down. This is a good overview but makes it hard to see translations of an individual item. It allows you to:
+
+![Content Management Language Filter](/images/bioland/bl2-06-000.png)
 
 - View content in a specific language
 - See all content items regardless of language
@@ -617,17 +737,22 @@ In the Content Management interface, switch to a specific language or to all lan
 
 #### 2. Using the Translate Menu
 
-From the content editing screen:
+From the Content Management interface, select **Translate** from the item's operations menu:
 
-1. Look for the **Translate** menu or tab
-2. This shows all available translations for the current content item
-3. You can see which languages have translations and which don't
+![Translate from Operations Menu](/images/bioland/bl2-06-001.png)
+
+1. This shows all available translations for the current content item
+2. You can see which languages have translations and which don't
 
 #### 3. Viewing the Translate Tab
 
-The Translate tab on a content item shows:
+Choose the **Translate** tab while viewing the item itself:
 
-![Translation Tabs](/images/bioland/translation-tabs.png)
+![Translate Tab on Content Item](/images/bioland/bl2-06-002.png)
+
+Both options 2 and 3 end up on the same screen that allows you to see all existing translations and links to edit them. Translations can also be deleted from this screen.
+
+![Translation Management Screen](/images/bioland/translation-tabs.png)
 
 - All available language versions
 - Publication status of each translation
@@ -635,17 +760,45 @@ The Translate tab on a content item shows:
 
 ### Creating Translations
 
+If a translation does not exist, an **Add** button will be available instead of Edit/Delete under the operations.
+
+![Add Translation Screen](/images/bioland/bl2-06-003.png)
+
 To create or edit a translation:
 
 1. Navigate to the content item you want to translate
 2. Look for the **Translate** tab or **Add Translation** option
 3. Select the target language from the available options
-4. Enter the translated content:
-   - **Title**: Translated title
-   - **Body text**: Main content translation
-   - **Other translatable fields**: Any additional fields that support translation
+4. Enter the translated content — not all fields can be translated, as some have their language-specific presentation generated from the underlying information:
+
+#### Translatable Fields Reference
+
+The following example shows which fields are translatable for a document content type:
+
+| Field | Present in Translation | Notes |
+|-------|:---------------------:|-------|
+| **Content Type** | No | Can only be selected during item creation |
+| **Title** | Yes | |
+| **URLs, link and text** | Both | Allows pointing to a language-specific URL |
+| **Body** | Yes | |
+| **Published Date** | No | Presentation is automatically generated |
+| **Attachments** | No | |
+| **GBF Targets** | No | Numeric or using appropriate translation |
+| **Thematic Areas** | No | Numeric or using appropriate translation |
+| **Countries** | No | Numeric or using appropriate translation |
+| **SDGs** | No | Numeric or using appropriate translation |
+| **Menu link title** | Yes | Described in the Menu Translation section |
+
 5. Set the publication status (Draft or Published)
 6. Save the translation
+
+#### Publication Workflow in Translation
+
+**Published** is a status flag rather than a field. It is managed separately for each translation — it is possible to have a translation be unpublished even while the original document is already live. This supports a draft workflow for content translation and is reflected appropriately in the translation management screen.
+
+A new translation can also be deleted from the translation screen — that's why the **Edit** button has a drop-down menu, but only for translations. The main item (with all its translations) can be deleted the usual way from the edit screen.
+
+![Publication Workflow in Translation](/images/bioland/bl2-06-004.png)
 
 ::: warning Publication Status
 A translation can be in Draft mode while the original content is Published. Draft translations will not be visible to public users until published.
@@ -668,7 +821,9 @@ The system distinguishes between:
 - **Published translations**: Visible to all users
 - **Draft/Unpublished translations**: Only visible to content managers and above
 
-You can manage unpublished translations through the Unpublished tab, which shows:
+Note that unpublished translations, just like unpublished primary content items, do not show up under the main content tab in the Content Administration screen. Rather, they show up under the **Unpublished** tab, which shows:
+
+![Unpublished Translations Tab](/images/bioland/bl2-06-005.png)
 
 - Content items with unpublished translations
 - The specific languages that are unpublished
@@ -692,6 +847,22 @@ Content managers can preview and edit draft translations before making them publ
 Content may exist in all 6 UN languages and the content in different languages is linked together. Bioland tries to display content in the chosen language and will fall back to system language (usually English), when the translation is not available.
 
 This applies to the menus as well. If the content is translated, but the menu link is not, the English menu text will show instead.
+
+#### Translating a Menu Title
+
+The easiest way to translate a menu title is to edit the translation of the content item. The menu editing interface will already be open with the original (English) title shown:
+
+![Menu Settings in Translation](/images/bioland/menu-settings-in-translation.png)
+
+1. Navigate to the translated version of the content item (or create a new translation)
+2. In the **Menu settings** panel on the right, the original (English) menu link title will be displayed
+3. Copy or enter the translated title into the **Menu link title** field
+
+![French Menu Title Example](/images/bioland/french-menu-title.png)
+
+4. Save the translation
+
+Once saved, the menu will automatically use the new available translation for that language and the original version for English.
 
 ::: tip Menu Translations
 Remember that menus need to be translated separately. If content is translated but the menu link is not, the English menu text will show instead.

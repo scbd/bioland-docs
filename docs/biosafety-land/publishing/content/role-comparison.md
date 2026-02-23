@@ -7,73 +7,41 @@ This table shows what each role can do when adding, editing, deleting, cloning, 
 | Ability | Contributor | Content Manager | Site Manager |
 |---------|:-----------:|:---------------:|:------------:|
 | **Adding Content** | | | |
-| Add basic content | ✅ | ✅ | ✅ |
-| Add images | ✅ | ✅ | ✅ |
-| Add files | ✅ | ✅ | ✅ |
+| Add content | ✅ | ✅ | ✅ |
+| Add images to content | ✅ | ✅ | ✅ |
+| Add files to content | ✅ | ✅ | ✅ |
 | Save as draft | ✅ | ✅ | ✅ |
 | Publish content | ❌ | ✅ | ✅ |
 | Add to menus | ❌ | ✅ | ✅ |
-| Set custom URLs | ❌ | ✅ | ✅ |
-| Configure workflow | ❌ | ✅ | ✅ |
-| Set permissions | ❌ | ✅ | ✅ |
-| Access all content types | ❌ | ✅ | ✅ |
-| Advanced settings | ❌ | ⚠️ Some | ✅ All |
-| SEO settings | ❌ | ⚠️ Limited | ✅ |
-| Translation settings | ❌ | ✅ | ✅ |
-| Technical config | ❌ | ❌ | ✅ |
+| Set custom URLs | ✅ | ✅ | ✅ |
+| Set redirect URLs | ❌ | ❌ | ✅ |
 | **Editing Content** | | | |
 | Edit own content | ✅ | ✅ | ✅ |
-| Edit others' content | ❌ | ✅ | ✅ |
 | Edit any content | ❌ | ✅ | ✅ |
 | Add revision notes | ✅ | ✅ | ✅ |
 | View revision history | ⚠️ Limited | ✅ | ✅ |
 | Revert to old version | ❌ | ⚠️ Limited | ✅ |
-| Change workflow state | ❌ | ✅ | ✅ |
 | Update menu placement | ❌ | ✅ | ✅ |
 | Change URL paths | ❌ | ✅ | ✅ |
-| Modify permissions | ❌ | ✅ | ✅ |
-| Access system settings | ❌ | ❌ | ✅ |
 | **Deleting Content** | | | |
 | Delete own content | ✅ | ✅ | ✅ |
 | Delete others' content | ❌ | ✅ | ✅ |
 | Delete any content | ❌ | ✅ | ✅ |
-| Check content usage | ⚠️ Limited | ✅ | ✅ |
-| View impact analysis | ❌ | ⚠️ Basic | ✅ Full |
-| Create backups before delete | ❌ | ⚠️ Manual | ✅ |
-| Configure delete options | ❌ | ⚠️ Limited | ✅ All |
-| Set up redirects | ❌ | ⚠️ Basic | ✅ Advanced |
-| Add deletion notes | ✅ | ✅ | ✅ |
-| Post-deletion cleanup | ❌ | ✅ | ✅ |
 | **Cloning Content** | | | |
 | Clone own content | ✅ | ✅ | ✅ |
 | Clone others' content | ✅ | ✅ | ✅ |
-| Clone any content | ❌ | ✅ | ✅ |
 | Clone published content | ✅ | ✅ | ✅ |
 | Clone draft content | ✅ | ✅ | ✅ |
-| Change author on clone | ❌ | ✅ | ✅ |
-| Change content type | ❌ | ❌ | ✅ |
-| Set clone permissions | ❌ | ✅ | ✅ |
-| Configure workflow on clone | ❌ | ✅ | ✅ |
-| Language settings on clone | ❌ | ✅ | ✅ |
-| URL configuration | ❌ | ⚠️ Basic | ✅ Advanced |
-| Bulk clone operations | ❌ | ⚠️ Limited | ✅ |
-| Clone with revisions | ❌ | ❌ | ✅ |
+| URL configuration | ✅ | ✅ | ✅ Advanced |
 | **Translating Content** | | | |
 | Translate own content | ✅ | ✅ | ✅ |
 | Translate others' content | ❌ | ✅ | ✅ |
 | Translate any content | ❌ | ✅ | ✅ |
-| View translation status | ⚠️ Limited | ✅ | ✅ |
+| View translation status | ✅ | ✅ | ✅ |
 | Edit existing translations | ⚠️ Own only | ✅ | ✅ |
-| Manage translation workflows | ❌ | ✅ | ✅ |
-| Set language-specific options | ❌ | ✅ | ✅ |
-| Link related translations | ❌ | ✅ | ✅ |
 | Delete translations | ⚠️ Own only | ✅ | ✅ |
-| Configure language settings | ❌ | ❌ | ✅ |
-| Manage translation memory | ❌ | ❌ | ✅ |
-| Configure machine translation | ❌ | ❌ | ✅ |
-| Bulk translation operations | ❌ | ⚠️ Limited | ✅ |
-| Export/import translations | ❌ | ❌ | ✅ |
-| Configure URL patterns per language | ❌ | ⚠️ Basic | ✅ Advanced |
+
+
 
 **Legend:**
 
